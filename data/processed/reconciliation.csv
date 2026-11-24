@@ -1,0 +1,8 @@
+bucket,rows,budget_eur,actual_eur,variance_eur
+Raw file,454,2094168.45,2161268.43,67099.98
+Less: Exact duplicate,2,-7439.81,-7289.32,150.49
+Less: Missing/invalid date,7,-37322.1,-37781.89,-459.79
+Less: Negative budget,1,2500.0,-6471.2,-8971.2
+Less: Out of period,2,-24849.0,-23288.6,1560.4
+Clean ledger,442,2027057.54,2086437.42,59379.88
+CHECK (must be 0.00),0,-0.0,0.0,0.0

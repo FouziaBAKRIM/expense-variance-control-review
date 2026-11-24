@@ -1,0 +1,18 @@
+check_id,check_name,rule,rows_affected,amount_affected_eur,amount_basis,disposition
+DQ01,Exact duplicate,"Same date, department, category, description, budget and actual; later txn_id",2,7289.32,actual_amount,QUARANTINE
+DQ02,Near duplicate,"Same department, category, description and actual; date within 2 days",4,14459.4,actual_amount,INCLUDE_FLAGGED
+DQ03,Missing date,Date field is blank,4,24677.13,actual_amount,QUARANTINE
+DQ04,Invalid date,Date is not parseable with the approved formats,3,13104.76,actual_amount,QUARANTINE
+DQ05,Date format normalised,Non-ISO but unambiguous date,1,796.28,actual_amount,CORRECT_AND_INCLUDE
+DQ06,Out of period,Date outside 2026-01-01 to 2026-06-30,2,23288.6,actual_amount,EXCLUDE_OUT_OF_PERIOD
+DQ07,Non-canonical category,Label mapped to a canonical category,6,20719.84,actual_amount,CORRECT_AND_INCLUDE
+DQ08,Invalid category,Label cannot be mapped to a canonical category,0,0.0,actual_amount,QUARANTINE
+DQ09,Invalid department,Department outside the approved list,0,0.0,actual_amount,QUARANTINE
+DQ10,Invalid amount,Budget or actual is not numeric,0,0.0,actual_amount,QUARANTINE
+DQ11,Negative budget,Budget below zero,1,2500.0,budget,QUARANTINE
+DQ12,Credit note,Negative actual amount (credit or refund),4,5293.69,actual_amount,INCLUDE_FLAGGED
+DQ13,Unbudgeted spend,Budget is zero and actual is positive,3,10421.61,actual_amount,INCLUDE_FLAGGED
+DQ14,Tiny budget,Budget above zero but below 100 EUR,2,2813.99,actual_amount,INCLUDE_FLAGGED
+DQ15,Extreme outlier,Actual above 3x the category median,5,44339.57,variance_eur,INCLUDE_FLAGGED
+DQ16,Blank description,Description is empty,2,19040.17,actual_amount,INCLUDE_FLAGGED
+DQ17,Zero activity,Budget and actual are both zero,0,0.0,actual_amount,QUARANTINE

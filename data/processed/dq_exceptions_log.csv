@@ -1,0 +1,38 @@
+txn_id,date,month,department,category,category_raw,description,budget,actual_amount,variance_eur,variance_pct,disposition,dq_flags,needs_review,included
+TXN-2003,2026-03-23,2026-03,Store Operations,Freight & Delivery,freight & delivery,Pallet transfer - cross dock - DHL Freight Europe,4756.99,4907.86,150.87,3.17,CORRECT_AND_INCLUDE,CATEGORY_NORMALISED,False,True
+TXN-2009,2026-03-11,2026-03,Marketing,Software & Cloud,Software & Cloud,Data warehouse consumption - Microsoft Azure,2743.8,2854.66,110.86,4.04,INCLUDE_FLAGGED,NEAR_DUPLICATE,True,True
+TXN-2021,2026-06-10,2026-06,Store Operations,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - ADP Payroll Services,1.0,1145.39,1144.39,,INCLUDE_FLAGGED,TINY_BUDGET,True,True
+TXN-2023,2026-02-01,2026-02,Marketing,Digital Ads & Promo,Digital Ads & Promo,Retail media - in-store screens - JCDecaux Retail Display,4516.77,4375.04,-141.73,-3.14,INCLUDE_FLAGGED,NEAR_DUPLICATE,True,True
+TXN-2040,2026-05-07,2026-05,IT & Systems,Office & Supplies,Office & Supplies,Unbudgeted spend - Printing - store signage - Staples Business,0.0,3705.08,3705.08,,INCLUDE_FLAGGED,UNBUDGETED|OUTLIER,True,True
+TXN-2100,2026-05-14,2026-05,Finance & Admin,Utilities & Rent,Utilities & Rent,,7005.42,7505.15,499.73,7.13,INCLUDE_FLAGGED,BLANK_DESCRIPTION,True,True
+TXN-2108,2026-03-04,2026-03,Store Operations,Utilities & Rent,Utilities & Rent,Credit note - Service charge - retail park - Klepierre Retail Leases,8129.18,-2416.53,-10545.71,-129.73,INCLUDE_FLAGGED,CREDIT_NOTE,True,True
+TXN-2121,2026-07-03,2026-07,Marketing,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - ADP Payroll Services,12536.63,11711.9,-824.73,-6.58,EXCLUDE_OUT_OF_PERIOD,OUT_OF_PERIOD_DATE,False,False
+TXN-2130,2026-05-13,2026-05,Marketing,Software & Cloud,Software & Cloud,Annual licence renewal - billed in one month,3847.19,13713.94,9866.75,256.47,INCLUDE_FLAGGED,OUTLIER,True,True
+TXN-2142,2026-06-02,2026-06,Store Operations,Utilities & Rent,Utilities & Rent,Credit note - Water & waste - Klepierre Retail Leases,8264.89,-1745.37,-10010.26,-121.12,INCLUDE_FLAGGED,CREDIT_NOTE,True,True
+TXN-2166,2026-06-16,2026-06,Store Operations,Freight & Delivery,Freight & Delivery,Expedited air freight - unplanned replenishment,3865.26,18942.63,15077.37,390.07,INCLUDE_FLAGGED,OUTLIER,True,True
+TXN-2194,2026-03-04,2026-03,Store Operations,Office & Supplies,Office & Supplies,Stationery & consumables - CityPost,1.0,1668.6,1667.6,,INCLUDE_FLAGGED,TINY_BUDGET,True,True
+TXN-2198,2026-04-17,2026-04,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Budget correction entry - negative value (review),-2500.0,6471.2,8971.2,,QUARANTINE,NEGATIVE_BUDGET,False,False
+TXN-2201,,UNKNOWN,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Preventive HVAC inspection - Otis Elevators,2685.48,2766.37,80.89,3.01,QUARANTINE,INVALID_DATE,False,False
+TXN-2217,,UNKNOWN,Logistics & Supply,Freight & Delivery,Freight & Delivery,Carrier fuel surcharge - Chronopost Pro,3005.81,3465.97,460.16,15.31,QUARANTINE,MISSING_DATE,False,False
+TXN-2226,2026-03-28,2026-03,IT & Systems,Software & Cloud,software  & cloud,SaaS subscription - CRM - Datadog Cloud,2501.88,2570.09,68.21,2.73,CORRECT_AND_INCLUDE,CATEGORY_NORMALISED,False,True
+TXN-2237,,UNKNOWN,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - ADP Payroll Services,12595.08,11909.6,-685.48,-5.44,QUARANTINE,MISSING_DATE,False,False
+TXN-2248,2026-01-08,2026-01,IT & Systems,Office & Supplies,Office & Supplies,Unbudgeted spend - Cleaning supplies - VistaPrint,0.0,3350.01,3350.01,,INCLUDE_FLAGGED,UNBUDGETED|OUTLIER,True,True
+TXN-2250,2026-04-15,2026-04,Store Operations,Freight & Delivery,Freight and Delivery,Outbound delivery - last mile - Geodis Logistics,2617.57,2938.0,320.43,12.24,CORRECT_AND_INCLUDE,CATEGORY_NORMALISED,False,True
+TXN-2267,2026-06-18,2026-06,Store Operations,Freight & Delivery,Logisitcs & Freight,Return logistics - reverse flow - Geodis Logistics,2567.33,2992.24,424.91,16.55,CORRECT_AND_INCLUDE,CATEGORY_NORMALISED,False,True
+TXN-2280,2025-12-28,2025-12,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - ADP Payroll Services,12312.37,11576.7,-735.67,-5.98,EXCLUDE_OUT_OF_PERIOD,OUT_OF_PERIOD_DATE,False,False
+TXN-2299,2026-05-02,2026-05,Logistics & Supply,Freight & Delivery,FREIGHT & DELIVERY,Inbound freight - regional hub - DHL Freight Europe,3980.45,4694.67,714.22,17.94,CORRECT_AND_INCLUDE,CATEGORY_NORMALISED,False,True
+TXN-2326,2026-01-12,2026-01,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Emergency chiller replacement - store 04,2774.89,15115.25,12340.36,444.72,INCLUDE_FLAGGED,OUTLIER,True,True
+TXN-2336,2026-05-16,2026-05,Marketing,Software & Cloud,Software & Cloud,Unbudgeted spend - Data warehouse consumption - Salesforce EMEA,0.0,3366.52,3366.52,,INCLUDE_FLAGGED,UNBUDGETED,True,True
+TXN-2346,2026-05-18,2026-05,Store Operations,Freight & Delivery,Freight & Delivery,Credit note - Outbound delivery - last mile - Geodis Logistics,2490.03,-650.31,-3140.34,-126.12,INCLUDE_FLAGGED,CREDIT_NOTE,True,True
+TXN-2368,2026-05-27,2026-05,Logistics & Supply,Freight & Delivery,Freight & Delivery,Credit note - Pallet transfer - cross dock - Geodis Logistics,5353.7,-481.48,-5835.18,-108.99,INCLUDE_FLAGGED,CREDIT_NOTE,True,True
+TXN-2387,2026-01-15,2026-01,IT & Systems,Office & Supplies,Office & Supplies,Cleaning supplies - CityPost,799.55,796.28,-3.27,-0.41,CORRECT_AND_INCLUDE,DATE_FORMAT_NORMALISED,False,True
+TXN-2393,,UNKNOWN,IT & Systems,Software & Cloud,Software & Cloud,Cyber security tooling - Snowflake Inc,4979.22,5318.18,338.96,6.81,QUARANTINE,INVALID_DATE,False,False
+TXN-2411,,UNKNOWN,Finance & Admin,Software & Cloud,Software & Cloud,Licence renewal - BI platform - Datadog Cloud,1328.32,1367.81,39.49,2.97,QUARANTINE,MISSING_DATE,False,False
+TXN-2415,,UNKNOWN,Store Operations,Utilities & Rent,Utilities & Rent,Store lease - monthly - Veolia Water,8117.62,7933.75,-183.87,-2.27,QUARANTINE,MISSING_DATE,False,False
+TXN-2418,2026-04-18,2026-04,Store Operations,Payroll & Overtime,Payroll & Overtime,,11793.36,11535.02,-258.34,-2.19,INCLUDE_FLAGGED,BLANK_DESCRIPTION,True,True
+TXN-2439,2026-06-22,2026-06,Store Operations,Freight & Delivery, Freight & Delivery ,Inbound freight - regional hub - Chronopost Pro,2480.42,2616.98,136.56,5.51,CORRECT_AND_INCLUDE,CATEGORY_NORMALISED,False,True
+TXN-2446,,UNKNOWN,Finance & Admin,Professional Services,Professional Services,Tax compliance support - ProcessWorks Consulting,4610.57,5020.21,409.64,8.88,QUARANTINE,INVALID_DATE,False,False
+TXN-2451,2026-05-03,2026-05,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - ADP Payroll Services,6555.03,6394.95,-160.08,-2.44,QUARANTINE,EXACT_DUPLICATE,False,False
+TXN-2452,2026-01-16,2026-01,IT & Systems,Office & Supplies,Office & Supplies,Uniform & PPE - CityPost,884.78,894.37,9.59,1.08,QUARANTINE,EXACT_DUPLICATE,False,False
+TXN-2453,2026-03-13,2026-03,Marketing,Software & Cloud,Software & Cloud,Data warehouse consumption - Microsoft Azure,2743.8,2854.66,110.86,4.04,INCLUDE_FLAGGED,NEAR_DUPLICATE,True,True
+TXN-2454,2026-02-02,2026-02,Marketing,Digital Ads & Promo,Digital Ads & Promo,Retail media - in-store screens - JCDecaux Retail Display,4516.77,4375.04,-141.73,-3.14,INCLUDE_FLAGGED,NEAR_DUPLICATE,True,True

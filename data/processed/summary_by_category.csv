@@ -1,0 +1,9 @@
+category,txn_count,budget_eur,actual_eur,variance_eur,variance_pct,rank_adverse,rank_favourable
+Freight & Delivery,45,184255.56,215084.8,30829.24,16.73,1,8
+Maintenance & Repairs,67,156463.29,182238.82,25775.53,16.47,2,7
+Software & Cloud,46,136628.4,157817.11,21188.71,15.51,3,6
+Professional Services,33,150614.2,165957.96,15343.76,10.19,4,5
+Office & Supplies,84,71945.14,78967.82,7022.68,9.76,5,4
+Digital Ads & Promo,14,55088.23,52490.58,-2597.65,-4.72,6,3
+Utilities & Rent,67,427608.28,415536.36,-12071.92,-2.82,7,2
+Payroll & Overtime,86,844454.44,818343.97,-26110.47,-3.09,8,1

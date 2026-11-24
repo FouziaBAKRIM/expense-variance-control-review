@@ -1,0 +1,7 @@
+txn_id,category_raw,category,disposition
+TXN-2003,freight & delivery,Freight & Delivery,CORRECT_AND_INCLUDE
+TXN-2226,software  & cloud,Software & Cloud,CORRECT_AND_INCLUDE
+TXN-2250,Freight and Delivery,Freight & Delivery,CORRECT_AND_INCLUDE
+TXN-2267,Logisitcs & Freight,Freight & Delivery,CORRECT_AND_INCLUDE
+TXN-2299,FREIGHT & DELIVERY,Freight & Delivery,CORRECT_AND_INCLUDE
+TXN-2439, Freight & Delivery ,Freight & Delivery,CORRECT_AND_INCLUDE

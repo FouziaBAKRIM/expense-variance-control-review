@@ -1,0 +1,193 @@
+       category        | txn_count | budget_eur | actual_eur | variance_eur | variance_pct | rank_adverse | rank_favourable 
+-----------------------+-----------+------------+------------+--------------+--------------+--------------+-----------------
+ Freight & Delivery    |        45 |  184255.56 |  215084.80 |     30829.24 |        16.73 |            1 |               8
+ Maintenance & Repairs |        67 |  156463.29 |  182238.82 |     25775.53 |        16.47 |            2 |               7
+ Software & Cloud      |        46 |  136628.40 |  157817.11 |     21188.71 |        15.51 |            3 |               6
+ Professional Services |        33 |  150614.20 |  165957.96 |     15343.76 |        10.19 |            4 |               5
+ Office & Supplies     |        84 |   71945.14 |   78967.82 |      7022.68 |         9.76 |            5 |               4
+ Digital Ads & Promo   |        14 |   55088.23 |   52490.58 |     -2597.65 |        -4.72 |            6 |               3
+ Utilities & Rent      |        67 |  427608.28 |  415536.36 |    -12071.92 |        -2.82 |            7 |               2
+ Payroll & Overtime    |        86 |  844454.44 |  818343.97 |    -26110.47 |        -3.09 |            8 |               1
+(8 lignes)
+
+  month  | txn_count | budget_eur | actual_eur | variance_eur | variance_pct | cumulative_actual_eur | cumulative_variance_eur 
+---------+-----------+------------+------------+--------------+--------------+-----------------------+-------------------------
+ 2026-01 |        70 |  307107.47 |  325485.51 |     18378.04 |         5.98 |             325485.51 |                18378.04
+ 2026-02 |        76 |  352875.59 |  356185.52 |      3309.93 |         0.94 |             681671.03 |                21687.97
+ 2026-03 |        71 |  311717.82 |  309809.76 |     -1908.06 |        -0.61 |             991480.79 |                19779.91
+ 2026-04 |        64 |  347575.79 |  352971.10 |      5395.31 |         1.55 |            1344451.89 |                25175.22
+ 2026-05 |        71 |  308654.02 |  325838.81 |     17184.79 |         5.57 |            1670290.70 |                42360.01
+ 2026-06 |        90 |  399126.85 |  416146.72 |     17019.87 |         4.26 |            2086437.42 |                59379.88
+(6 lignes)
+
+  month  |       category        | txn_count | budget_eur | actual_eur | variance_eur | variance_pct 
+---------+-----------------------+-----------+------------+------------+--------------+--------------
+ 2026-06 | Freight & Delivery    |        13 |   47803.64 |   69143.81 |     21340.17 |        44.64
+ 2026-01 | Maintenance & Repairs |        12 |   22805.86 |   36886.60 |     14080.74 |        61.74
+ 2026-05 | Software & Cloud      |         9 |   31637.31 |   45391.80 |     13754.49 |        43.48
+ 2026-01 | Freight & Delivery    |         7 |   28120.08 |   31785.65 |      3665.57 |        13.04
+ 2026-04 | Freight & Delivery    |         5 |   21839.17 |   25464.32 |      3625.15 |        16.60
+ 2026-02 | Freight & Delivery    |         6 |   23603.03 |   27099.54 |      3496.51 |        14.81
+ 2026-03 | Freight & Delivery    |         6 |   26296.52 |   29670.95 |      3374.43 |        12.83
+ 2026-05 | Professional Services |         7 |   34802.37 |   38112.23 |      3309.86 |         9.51
+ 2026-05 | Office & Supplies     |        12 |    9650.54 |   12950.74 |      3300.20 |        34.20
+ 2026-03 | Professional Services |         8 |   36480.32 |   39575.76 |      3095.44 |         8.49
+ 2026-01 | Office & Supplies     |        15 |   12275.81 |   15143.75 |      2867.94 |        23.36
+ 2026-06 | Professional Services |         6 |   25652.59 |   28448.12 |      2795.53 |        10.90
+(12 lignes)
+
+  month  |      category       | txn_count | budget_eur | actual_eur | variance_eur | variance_pct 
+---------+---------------------+-----------+------------+------------+--------------+--------------
+ 2026-03 | Utilities & Rent    |         6 |   37002.79 |   26781.82 |    -10220.97 |       -27.62
+ 2026-06 | Utilities & Rent    |        11 |   69756.30 |   61514.35 |     -8241.95 |       -11.82
+ 2026-01 | Payroll & Overtime  |        15 |  149698.93 |  142179.43 |     -7519.50 |        -5.02
+ 2026-02 | Payroll & Overtime  |        16 |  135909.84 |  130267.02 |     -5642.82 |        -4.15
+ 2026-04 | Payroll & Overtime  |        16 |  169827.45 |  164671.65 |     -5155.80 |        -3.04
+ 2026-05 | Freight & Delivery  |         8 |   36593.12 |   31920.53 |     -4672.59 |       -12.77
+ 2026-03 | Payroll & Overtime  |        14 |  138994.64 |  135608.56 |     -3386.08 |        -2.44
+ 2026-05 | Payroll & Overtime  |         8 |   82100.32 |   78914.28 |     -3186.04 |        -3.88
+ 2026-06 | Digital Ads & Promo |         4 |   16064.46 |   14658.39 |     -1406.07 |        -8.75
+ 2026-06 | Payroll & Overtime  |        17 |  167923.26 |  166703.03 |     -1220.23 |        -0.73
+ 2026-06 | Office & Supplies   |        15 |   12753.59 |   11988.04 |      -765.55 |        -6.00
+ 2026-02 | Utilities & Rent    |        16 |  108522.63 |  107922.24 |      -600.39 |        -0.55
+(12 lignes)
+
+  txn_id  |  txn_date  |     department     |       category        |                           description                           | budget_eur | actual_eur | variance_eur | variance_pct |      dq_flags      
+----------+------------+--------------------+-----------------------+-----------------------------------------------------------------+------------+------------+--------------+--------------+--------------------
+ TXN-2166 | 2026-06-16 | Store Operations   | Freight & Delivery    | Expedited air freight - unplanned replenishment                 |    3865.26 |   18942.63 |     15077.37 |       390.07 | OUTLIER
+ TXN-2326 | 2026-01-12 | Logistics & Supply | Maintenance & Repairs | Emergency chiller replacement - store 04                        |    2774.89 |   15115.25 |     12340.36 |       444.72 | OUTLIER
+ TXN-2130 | 2026-05-13 | Marketing          | Software & Cloud      | Annual licence renewal - billed in one month                    |    3847.19 |   13713.94 |      9866.75 |       256.47 | OUTLIER
+ TXN-2040 | 2026-05-07 | IT & Systems       | Office & Supplies     | Unbudgeted spend - Printing - store signage - Staples Business  |       0.00 |    3705.08 |      3705.08 |              | UNBUDGETED|OUTLIER
+ TXN-2336 | 2026-05-16 | Marketing          | Software & Cloud      | Unbudgeted spend - Data warehouse consumption - Salesforce EMEA |       0.00 |    3366.52 |      3366.52 |              | UNBUDGETED
+ TXN-2248 | 2026-01-08 | IT & Systems       | Office & Supplies     | Unbudgeted spend - Cleaning supplies - VistaPrint               |       0.00 |    3350.01 |      3350.01 |              | UNBUDGETED|OUTLIER
+ TXN-2194 | 2026-03-04 | Store Operations   | Office & Supplies     | Stationery & consumables - CityPost                             |       1.00 |    1668.60 |      1667.60 |              | TINY_BUDGET
+ TXN-2235 | 2026-06-01 | Store Operations   | Freight & Delivery    | Inbound freight - regional hub - DHL Freight Europe             |    6292.06 |    7544.87 |      1252.81 |        19.91 | CLEAN
+ TXN-2221 | 2026-06-06 | Marketing          | Professional Services | Recruitment agency fees - Deloitte Advisory                     |    6729.33 |    7922.47 |      1193.14 |        17.73 | CLEAN
+ TXN-2021 | 2026-06-10 | Store Operations   | Payroll & Overtime    | Monthly payroll allocation - store staff - ADP Payroll Services |       1.00 |    1145.39 |      1144.39 |              | TINY_BUDGET
+ TXN-2302 | 2026-05-27 | Logistics & Supply | Freight & Delivery    | Inbound freight - regional hub - Chronopost Pro                 |    6541.91 |    7627.48 |      1085.57 |        16.59 | CLEAN
+ TXN-2185 | 2026-05-05 | Store Operations   | Freight & Delivery    | Carrier fuel surcharge - Chronopost Pro                         |    6866.04 |    7925.62 |      1059.58 |        15.43 | CLEAN
+ TXN-2432 | 2026-03-11 | Store Operations   | Payroll & Overtime    | Temporary staff - seasonal cover - ADP Payroll Services         |   10687.94 |   11732.79 |      1044.85 |         9.78 | CLEAN
+ TXN-2104 | 2026-04-16 | Logistics & Supply | Freight & Delivery    | Pallet transfer - cross dock - Geodis Logistics                 |    4932.41 |    5965.50 |      1033.09 |        20.94 | CLEAN
+ TXN-2197 | 2026-03-06 | Store Operations   | Freight & Delivery    | Outbound delivery - last mile - Geodis Logistics                |    4803.54 |    5791.54 |       988.00 |        20.57 | CLEAN
+(15 lignes)
+
+  txn_id  |  txn_date  |     department     |      category      |                             description                              | budget_eur | actual_eur | variance_eur | variance_pct |  dq_flags   
+----------+------------+--------------------+--------------------+----------------------------------------------------------------------+------------+------------+--------------+--------------+-------------
+ TXN-2108 | 2026-03-04 | Store Operations   | Utilities & Rent   | Credit note - Service charge - retail park - Klepierre Retail Leases |    8129.18 |   -2416.53 |    -10545.71 |      -129.73 | CREDIT_NOTE
+ TXN-2142 | 2026-06-02 | Store Operations   | Utilities & Rent   | Credit note - Water & waste - Klepierre Retail Leases                |    8264.89 |   -1745.37 |    -10010.26 |      -121.12 | CREDIT_NOTE
+ TXN-2368 | 2026-05-27 | Logistics & Supply | Freight & Delivery | Credit note - Pallet transfer - cross dock - Geodis Logistics        |    5353.70 |    -481.48 |     -5835.18 |      -108.99 | CREDIT_NOTE
+ TXN-2346 | 2026-05-18 | Store Operations   | Freight & Delivery | Credit note - Outbound delivery - last mile - Geodis Logistics       |    2490.03 |    -650.31 |     -3140.34 |      -126.12 | CREDIT_NOTE
+ TXN-2231 | 2026-06-15 | Store Operations   | Payroll & Overtime | Temporary staff - seasonal cover - ADP Payroll Services              |   13613.62 |   11879.87 |     -1733.75 |       -12.74 | CLEAN
+ TXN-2152 | 2026-02-17 | Logistics & Supply | Payroll & Overtime | Weekend overtime - peak trading - Randstad Temp Staffing             |   11753.93 |   10224.73 |     -1529.20 |       -13.01 | CLEAN
+ TXN-2390 | 2026-01-14 | Store Operations   | Payroll & Overtime | Temporary staff - seasonal cover - Randstad Temp Staffing            |    9450.57 |    7954.96 |     -1495.61 |       -15.83 | CLEAN
+ TXN-2414 | 2026-03-18 | Store Operations   | Payroll & Overtime | Shift premium - night replenishment - internal payroll team          |    7967.75 |    6504.20 |     -1463.55 |       -18.37 | CLEAN
+ TXN-2343 | 2026-01-11 | Store Operations   | Payroll & Overtime | Temporary staff - seasonal cover - ADP Payroll Services              |   13358.60 |   12003.08 |     -1355.52 |       -10.15 | CLEAN
+ TXN-2039 | 2026-02-04 | Store Operations   | Payroll & Overtime | Temporary staff - seasonal cover - internal payroll team             |    9637.81 |    8427.17 |     -1210.64 |       -12.56 | CLEAN
+ TXN-2287 | 2026-04-21 | IT & Systems       | Payroll & Overtime | Temporary staff - seasonal cover - internal payroll team             |   11783.03 |   10593.24 |     -1189.79 |       -10.10 | CLEAN
+ TXN-2187 | 2026-01-11 | Marketing          | Payroll & Overtime | Agency cover - absence - ADP Payroll Services                        |   12474.59 |   11500.02 |      -974.57 |        -7.81 | CLEAN
+ TXN-2329 | 2026-01-07 | Marketing          | Payroll & Overtime | Agency cover - absence - internal payroll team                       |    8782.84 |    7860.02 |      -922.82 |       -10.51 | CLEAN
+ TXN-2421 | 2026-05-28 | Store Operations   | Payroll & Overtime | Monthly payroll allocation - store staff - ADP Payroll Services      |   13154.19 |   12251.49 |      -902.70 |        -6.86 | CLEAN
+ TXN-2164 | 2026-05-26 | Marketing          | Payroll & Overtime | Monthly payroll allocation - store staff - internal payroll team     |   10935.61 |   10068.64 |      -866.97 |        -7.93 | CLEAN
+(15 lignes)
+
+     department     | txn_count | budget_eur | actual_eur | variance_eur | variance_pct 
+--------------------+-----------+------------+------------+--------------+--------------
+ IT & Systems       |        69 |  281482.92 |  297327.99 |     15845.07 |         5.63
+ Marketing          |        73 |  282691.31 |  296855.30 |     14163.99 |         5.01
+ Logistics & Supply |        82 |  403534.06 |  416812.22 |     13278.16 |         3.29
+ Store Operations   |       160 |  752172.77 |  762982.24 |     10809.47 |         1.44
+ Finance & Admin    |        58 |  307176.48 |  312459.67 |      5283.19 |         1.72
+(5 lignes)
+
+      disposition      | row_count | share_pct 
+-----------------------+-----------+-----------
+ INCLUDE               |       417 |      91.9
+ INCLUDE_FLAGGED       |        18 |       4.0
+ QUARANTINE            |        10 |       2.2
+ CORRECT_AND_INCLUDE   |         7 |       1.5
+ EXCLUDE_OUT_OF_PERIOD |         2 |       0.4
+(5 lignes)
+
+          flag          | row_count 
+------------------------+-----------
+ CATEGORY_NORMALISED    |         6
+ OUTLIER                |         5
+ CREDIT_NOTE            |         4
+ MISSING_DATE           |         4
+ NEAR_DUPLICATE         |         4
+ INVALID_DATE           |         3
+ UNBUDGETED             |         3
+ BLANK_DESCRIPTION      |         2
+ EXACT_DUPLICATE        |         2
+ OUT_OF_PERIOD_DATE     |         2
+ TINY_BUDGET            |         2
+ DATE_FORMAT_NORMALISED |         1
+ NEGATIVE_BUDGET        |         1
+(13 lignes)
+
+  txn_id  |  txn_date  |  month  |     department     |       category        |                           description                           | budget_eur | actual_eur | variance_eur | variance_pct |      dq_flags      
+----------+------------+---------+--------------------+-----------------------+-----------------------------------------------------------------+------------+------------+--------------+--------------+--------------------
+ TXN-2166 | 2026-06-16 | 2026-06 | Store Operations   | Freight & Delivery    | Expedited air freight - unplanned replenishment                 |    3865.26 |   18942.63 |     15077.37 |       390.07 | OUTLIER
+ TXN-2326 | 2026-01-12 | 2026-01 | Logistics & Supply | Maintenance & Repairs | Emergency chiller replacement - store 04                        |    2774.89 |   15115.25 |     12340.36 |       444.72 | OUTLIER
+ TXN-2130 | 2026-05-13 | 2026-05 | Marketing          | Software & Cloud      | Annual licence renewal - billed in one month                    |    3847.19 |   13713.94 |      9866.75 |       256.47 | OUTLIER
+ TXN-2040 | 2026-05-07 | 2026-05 | IT & Systems       | Office & Supplies     | Unbudgeted spend - Printing - store signage - Staples Business  |       0.00 |    3705.08 |      3705.08 |              | UNBUDGETED|OUTLIER
+ TXN-2336 | 2026-05-16 | 2026-05 | Marketing          | Software & Cloud      | Unbudgeted spend - Data warehouse consumption - Salesforce EMEA |       0.00 |    3366.52 |      3366.52 |              | UNBUDGETED
+ TXN-2248 | 2026-01-08 | 2026-01 | IT & Systems       | Office & Supplies     | Unbudgeted spend - Cleaning supplies - VistaPrint               |       0.00 |    3350.01 |      3350.01 |              | UNBUDGETED|OUTLIER
+ TXN-2194 | 2026-03-04 | 2026-03 | Store Operations   | Office & Supplies     | Stationery & consumables - CityPost                             |       1.00 |    1668.60 |      1667.60 |              | TINY_BUDGET
+ TXN-2235 | 2026-06-01 | 2026-06 | Store Operations   | Freight & Delivery    | Inbound freight - regional hub - DHL Freight Europe             |    6292.06 |    7544.87 |      1252.81 |        19.91 | CLEAN
+ TXN-2221 | 2026-06-06 | 2026-06 | Marketing          | Professional Services | Recruitment agency fees - Deloitte Advisory                     |    6729.33 |    7922.47 |      1193.14 |        17.73 | CLEAN
+ TXN-2021 | 2026-06-10 | 2026-06 | Store Operations   | Payroll & Overtime    | Monthly payroll allocation - store staff - ADP Payroll Services |       1.00 |    1145.39 |      1144.39 |              | TINY_BUDGET
+ TXN-2302 | 2026-05-27 | 2026-05 | Logistics & Supply | Freight & Delivery    | Inbound freight - regional hub - Chronopost Pro                 |    6541.91 |    7627.48 |      1085.57 |        16.59 | CLEAN
+ TXN-2185 | 2026-05-05 | 2026-05 | Store Operations   | Freight & Delivery    | Carrier fuel surcharge - Chronopost Pro                         |    6866.04 |    7925.62 |      1059.58 |        15.43 | CLEAN
+ TXN-2432 | 2026-03-11 | 2026-03 | Store Operations   | Payroll & Overtime    | Temporary staff - seasonal cover - ADP Payroll Services         |   10687.94 |   11732.79 |      1044.85 |         9.78 | CLEAN
+ TXN-2104 | 2026-04-16 | 2026-04 | Logistics & Supply | Freight & Delivery    | Pallet transfer - cross dock - Geodis Logistics                 |    4932.41 |    5965.50 |      1033.09 |        20.94 | CLEAN
+ TXN-2287 | 2026-04-21 | 2026-04 | IT & Systems       | Payroll & Overtime    | Temporary staff - seasonal cover - internal payroll team        |   11783.03 |   10593.24 |     -1189.79 |       -10.10 | CLEAN
+ TXN-2039 | 2026-02-04 | 2026-02 | Store Operations   | Payroll & Overtime    | Temporary staff - seasonal cover - internal payroll team        |    9637.81 |    8427.17 |     -1210.64 |       -12.56 | CLEAN
+ TXN-2343 | 2026-01-11 | 2026-01 | Store Operations   | Payroll & Overtime    | Temporary staff - seasonal cover - ADP Payroll Services         |   13358.60 |   12003.08 |     -1355.52 |       -10.15 | CLEAN
+ TXN-2414 | 2026-03-18 | 2026-03 | Store Operations   | Payroll & Overtime    | Shift premium - night replenishment - internal payroll team     |    7967.75 |    6504.20 |     -1463.55 |       -18.37 | CLEAN
+ TXN-2390 | 2026-01-14 | 2026-01 | Store Operations   | Payroll & Overtime    | Temporary staff - seasonal cover - Randstad Temp Staffing       |    9450.57 |    7954.96 |     -1495.61 |       -15.83 | CLEAN
+ TXN-2152 | 2026-02-17 | 2026-02 | Logistics & Supply | Payroll & Overtime    | Weekend overtime - peak trading - Randstad Temp Staffing        |   11753.93 |   10224.73 |     -1529.20 |       -13.01 | CLEAN
+(20 lignes)
+
+                    layer                    | row_count | budget_eur | actual_eur 
+---------------------------------------------+-----------+------------+------------
+ Raw file                                    |       454 | 2094168.45 | 2161268.43
+ Less: excluded (quarantine + out of period) |        12 |   67110.91 |   74831.01
+ Clean ledger                                |       442 | 2027057.54 | 2086437.42
+ CHECK (raw - excluded - clean)              |         0 |       0.00 |       0.00
+(4 lignes)
+
+  txn_id  |  txn_date  |     department     |      category      |                             description                              | budget_eur | actual_eur | variance_eur |      dq_flags      
+----------+------------+--------------------+--------------------+----------------------------------------------------------------------+------------+------------+--------------+--------------------
+ TXN-2108 | 2026-03-04 | Store Operations   | Utilities & Rent   | Credit note - Service charge - retail park - Klepierre Retail Leases |    8129.18 |   -2416.53 |    -10545.71 | CREDIT_NOTE
+ TXN-2142 | 2026-06-02 | Store Operations   | Utilities & Rent   | Credit note - Water & waste - Klepierre Retail Leases                |    8264.89 |   -1745.37 |    -10010.26 | CREDIT_NOTE
+ TXN-2346 | 2026-05-18 | Store Operations   | Freight & Delivery | Credit note - Outbound delivery - last mile - Geodis Logistics       |    2490.03 |    -650.31 |     -3140.34 | CREDIT_NOTE
+ TXN-2368 | 2026-05-27 | Logistics & Supply | Freight & Delivery | Credit note - Pallet transfer - cross dock - Geodis Logistics        |    5353.70 |    -481.48 |     -5835.18 | CREDIT_NOTE
+ TXN-2248 | 2026-01-08 | IT & Systems       | Office & Supplies  | Unbudgeted spend - Cleaning supplies - VistaPrint                    |       0.00 |    3350.01 |      3350.01 | UNBUDGETED|OUTLIER
+ TXN-2336 | 2026-05-16 | Marketing          | Software & Cloud   | Unbudgeted spend - Data warehouse consumption - Salesforce EMEA      |       0.00 |    3366.52 |      3366.52 | UNBUDGETED
+ TXN-2040 | 2026-05-07 | IT & Systems       | Office & Supplies  | Unbudgeted spend - Printing - store signage - Staples Business       |       0.00 |    3705.08 |      3705.08 | UNBUDGETED|OUTLIER
+(7 lignes)
+
+  txn_id  |  txn_date  |     department     |       category        | budget_eur | actual_eur | variance_eur | variance_pct 
+----------+------------+--------------------+-----------------------+------------+------------+--------------+--------------
+ TXN-2166 | 2026-06-16 | Store Operations   | Freight & Delivery    |    3865.26 |   18942.63 |     15077.37 |       390.07
+ TXN-2326 | 2026-01-12 | Logistics & Supply | Maintenance & Repairs |    2774.89 |   15115.25 |     12340.36 |       444.72
+ TXN-2130 | 2026-05-13 | Marketing          | Software & Cloud      |    3847.19 |   13713.94 |      9866.75 |       256.47
+ TXN-2235 | 2026-06-01 | Store Operations   | Freight & Delivery    |    6292.06 |    7544.87 |      1252.81 |        19.91
+ TXN-2221 | 2026-06-06 | Marketing          | Professional Services |    6729.33 |    7922.47 |      1193.14 |        17.73
+ TXN-2302 | 2026-05-27 | Logistics & Supply | Freight & Delivery    |    6541.91 |    7627.48 |      1085.57 |        16.59
+ TXN-2185 | 2026-05-05 | Store Operations   | Freight & Delivery    |    6866.04 |    7925.62 |      1059.58 |        15.43
+ TXN-2104 | 2026-04-16 | Logistics & Supply | Freight & Delivery    |    4932.41 |    5965.50 |      1033.09 |        20.94
+ TXN-2287 | 2026-04-21 | IT & Systems       | Payroll & Overtime    |   11783.03 |   10593.24 |     -1189.79 |       -10.10
+ TXN-2039 | 2026-02-04 | Store Operations   | Payroll & Overtime    |    9637.81 |    8427.17 |     -1210.64 |       -12.56
+ TXN-2343 | 2026-01-11 | Store Operations   | Payroll & Overtime    |   13358.60 |   12003.08 |     -1355.52 |       -10.15
+ TXN-2414 | 2026-03-18 | Store Operations   | Payroll & Overtime    |    7967.75 |    6504.20 |     -1463.55 |       -18.37
+ TXN-2390 | 2026-01-14 | Store Operations   | Payroll & Overtime    |    9450.57 |    7954.96 |     -1495.61 |       -15.83
+ TXN-2152 | 2026-02-17 | Logistics & Supply | Payroll & Overtime    |   11753.93 |   10224.73 |     -1529.20 |       -13.01
+ TXN-2231 | 2026-06-15 | Store Operations   | Payroll & Overtime    |   13613.62 |   11879.87 |     -1733.75 |       -12.74
+ TXN-2346 | 2026-05-18 | Store Operations   | Freight & Delivery    |    2490.03 |    -650.31 |     -3140.34 |      -126.12
+ TXN-2368 | 2026-05-27 | Logistics & Supply | Freight & Delivery    |    5353.70 |    -481.48 |     -5835.18 |      -108.99
+ TXN-2142 | 2026-06-02 | Store Operations   | Utilities & Rent      |    8264.89 |   -1745.37 |    -10010.26 |      -121.12
+ TXN-2108 | 2026-03-04 | Store Operations   | Utilities & Rent      |    8129.18 |   -2416.53 |    -10545.71 |      -129.73
+(19 lignes)
+

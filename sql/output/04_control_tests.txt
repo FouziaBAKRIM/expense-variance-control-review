@@ -1,0 +1,70 @@
+  txn_date  |     department     |      category      |                       description                       | budget_eur | actual_eur | copies |      txn_ids       
+------------+--------------------+--------------------+---------------------------------------------------------+------------+------------+--------+--------------------
+ 2026-05-03 | Logistics & Supply | Payroll & Overtime | Temporary staff - seasonal cover - ADP Payroll Services |    6555.03 |    6394.95 |      2 | TXN-2364, TXN-2451
+ 2026-01-16 | IT & Systems       | Office & Supplies  | Uniform & PPE - CityPost                                |     884.78 |     894.37 |      2 | TXN-2348, TXN-2452
+(2 lignes)
+
+  txn_a   |  txn_b   | department |      category       | actual_eur |   date_a   |   date_b   | days_apart 
+----------+----------+------------+---------------------+------------+------------+------------+------------
+ TXN-2023 | TXN-2454 | Marketing  | Digital Ads & Promo |    4375.04 | 2026-02-01 | 2026-02-02 |          1
+ TXN-2009 | TXN-2453 | Marketing  | Software & Cloud    |    2854.66 | 2026-03-11 | 2026-03-13 |          2
+(2 lignes)
+
+  txn_id  |  txn_date  |     department     |      category      | actual_eur |      dq_flags      
+----------+------------+--------------------+--------------------+------------+--------------------
+ TXN-2280 | 2025-12-28 | Logistics & Supply | Payroll & Overtime |   11576.70 | OUT_OF_PERIOD_DATE
+ TXN-2121 | 2026-07-03 | Marketing          | Payroll & Overtime |   11711.90 | OUT_OF_PERIOD_DATE
+(2 lignes)
+
+  txn_id  |  txn_date  |     department     |      category      | budget_eur | actual_eur |    dq_flags     
+----------+------------+--------------------+--------------------+------------+------------+-----------------
+ TXN-2198 | 2026-04-17 | Logistics & Supply | Payroll & Overtime |   -2500.00 |    6471.20 | NEGATIVE_BUDGET
+(1 ligne)
+
+ category | row_count 
+----------+-----------
+(0 ligne)
+
+  txn_id  |  txn_date  |  department  |     category      | budget_eur | actual_eur | variance_eur 
+----------+------------+--------------+-------------------+------------+------------+--------------
+ TXN-2040 | 2026-05-07 | IT & Systems | Office & Supplies |       0.00 |    3705.08 |      3705.08
+ TXN-2336 | 2026-05-16 | Marketing    | Software & Cloud  |       0.00 |    3366.52 |      3366.52
+ TXN-2248 | 2026-01-08 | IT & Systems | Office & Supplies |       0.00 |    3350.01 |      3350.01
+(3 lignes)
+
+  txn_id  |  txn_date  |     department     |      category      | actual_eur | budget_eur | variance_eur 
+----------+------------+--------------------+--------------------+------------+------------+--------------
+ TXN-2108 | 2026-03-04 | Store Operations   | Utilities & Rent   |   -2416.53 |    8129.18 |    -10545.71
+ TXN-2142 | 2026-06-02 | Store Operations   | Utilities & Rent   |   -1745.37 |    8264.89 |    -10010.26
+ TXN-2346 | 2026-05-18 | Store Operations   | Freight & Delivery |    -650.31 |    2490.03 |     -3140.34
+ TXN-2368 | 2026-05-27 | Logistics & Supply | Freight & Delivery |    -481.48 |    5353.70 |     -5835.18
+(4 lignes)
+
+  txn_id  |  txn_date  |     department     |       category        | budget_eur | actual_eur | variance_eur | variance_pct 
+----------+------------+--------------------+-----------------------+------------+------------+--------------+--------------
+ TXN-2166 | 2026-06-16 | Store Operations   | Freight & Delivery    |    3865.26 |   18942.63 |     15077.37 |       390.07
+ TXN-2326 | 2026-01-12 | Logistics & Supply | Maintenance & Repairs |    2774.89 |   15115.25 |     12340.36 |       444.72
+ TXN-2130 | 2026-05-13 | Marketing          | Software & Cloud      |    3847.19 |   13713.94 |      9866.75 |       256.47
+ TXN-2235 | 2026-06-01 | Store Operations   | Freight & Delivery    |    6292.06 |    7544.87 |      1252.81 |        19.91
+ TXN-2221 | 2026-06-06 | Marketing          | Professional Services |    6729.33 |    7922.47 |      1193.14 |        17.73
+ TXN-2302 | 2026-05-27 | Logistics & Supply | Freight & Delivery    |    6541.91 |    7627.48 |      1085.57 |        16.59
+ TXN-2185 | 2026-05-05 | Store Operations   | Freight & Delivery    |    6866.04 |    7925.62 |      1059.58 |        15.43
+ TXN-2104 | 2026-04-16 | Logistics & Supply | Freight & Delivery    |    4932.41 |    5965.50 |      1033.09 |        20.94
+ TXN-2287 | 2026-04-21 | IT & Systems       | Payroll & Overtime    |   11783.03 |   10593.24 |     -1189.79 |       -10.10
+ TXN-2039 | 2026-02-04 | Store Operations   | Payroll & Overtime    |    9637.81 |    8427.17 |     -1210.64 |       -12.56
+ TXN-2343 | 2026-01-11 | Store Operations   | Payroll & Overtime    |   13358.60 |   12003.08 |     -1355.52 |       -10.15
+ TXN-2414 | 2026-03-18 | Store Operations   | Payroll & Overtime    |    7967.75 |    6504.20 |     -1463.55 |       -18.37
+ TXN-2390 | 2026-01-14 | Store Operations   | Payroll & Overtime    |    9450.57 |    7954.96 |     -1495.61 |       -15.83
+ TXN-2152 | 2026-02-17 | Logistics & Supply | Payroll & Overtime    |   11753.93 |   10224.73 |     -1529.20 |       -13.01
+ TXN-2231 | 2026-06-15 | Store Operations   | Payroll & Overtime    |   13613.62 |   11879.87 |     -1733.75 |       -12.74
+ TXN-2346 | 2026-05-18 | Store Operations   | Freight & Delivery    |    2490.03 |    -650.31 |     -3140.34 |      -126.12
+ TXN-2368 | 2026-05-27 | Logistics & Supply | Freight & Delivery    |    5353.70 |    -481.48 |     -5835.18 |      -108.99
+ TXN-2142 | 2026-06-02 | Store Operations   | Utilities & Rent      |    8264.89 |   -1745.37 |    -10010.26 |      -121.12
+ TXN-2108 | 2026-03-04 | Store Operations   | Utilities & Rent      |    8129.18 |   -2416.53 |    -10545.71 |      -129.73
+(19 lignes)
+
+ row_difference | budget_difference | actual_difference 
+----------------+-------------------+-------------------
+              0 |              0.00 |              0.00
+(1 ligne)
+

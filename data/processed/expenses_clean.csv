@@ -1,0 +1,443 @@
+txn_id,date,month,department,category,category_raw,description,budget,actual_amount,variance_eur,variance_pct,disposition,dq_flags,needs_review,included
+TXN-2001,2026-05-08,2026-05,Logistics & Supply,Office & Supplies,Office & Supplies,Cleaning supplies - Staples Business,1033.06,995.18,-37.88,-3.67,INCLUDE,CLEAN,False,True
+TXN-2002,2026-04-23,2026-04,IT & Systems,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - Randstad Temp Staffing,9937.87,9571.88,-365.99,-3.68,INCLUDE,CLEAN,False,True
+TXN-2003,2026-03-23,2026-03,Store Operations,Freight & Delivery,freight & delivery,Pallet transfer - cross dock - DHL Freight Europe,4756.99,4907.86,150.87,3.17,CORRECT_AND_INCLUDE,CATEGORY_NORMALISED,False,True
+TXN-2004,2026-04-25,2026-04,Store Operations,Office & Supplies,Office & Supplies,IT peripherals - CityPost,898.43,860.77,-37.66,-4.19,INCLUDE,CLEAN,False,True
+TXN-2005,2026-06-18,2026-06,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Rexel Electrical,1618.16,1765.82,147.66,9.13,INCLUDE,CLEAN,False,True
+TXN-2006,2026-06-02,2026-06,Store Operations,Freight & Delivery,Freight & Delivery,Pallet transfer - cross dock - Geodis Logistics,2448.78,2932.29,483.51,19.74,INCLUDE,CLEAN,False,True
+TXN-2007,2026-05-10,2026-05,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - internal payroll team,12080.26,12186.74,106.48,0.88,INCLUDE,CLEAN,False,True
+TXN-2008,2026-04-19,2026-04,Finance & Admin,Payroll & Overtime,Payroll & Overtime,Shift premium - night replenishment - ADP Payroll Services,13937.65,13312.52,-625.13,-4.49,INCLUDE,CLEAN,False,True
+TXN-2009,2026-03-11,2026-03,Marketing,Software & Cloud,Software & Cloud,Data warehouse consumption - Microsoft Azure,2743.8,2854.66,110.86,4.04,INCLUDE_FLAGGED,NEAR_DUPLICATE,True,True
+TXN-2010,2026-01-13,2026-01,Store Operations,Freight & Delivery,Freight & Delivery,Outbound delivery - last mile - DHL Freight Europe,2691.83,2895.05,203.22,7.55,INCLUDE,CLEAN,False,True
+TXN-2011,2026-01-10,2026-01,Store Operations,Utilities & Rent,Utilities & Rent,Water & waste - Veolia Water,8492.45,8942.27,449.82,5.3,INCLUDE,CLEAN,False,True
+TXN-2012,2026-04-23,2026-04,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - internal payroll team,7902.71,7878.96,-23.75,-0.3,INCLUDE,CLEAN,False,True
+TXN-2013,2026-02-05,2026-02,Store Operations,Freight & Delivery,Freight & Delivery,Inbound freight - regional hub - Chronopost Pro,4164.77,4843.04,678.27,16.29,INCLUDE,CLEAN,False,True
+TXN-2014,2026-03-03,2026-03,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Preventive HVAC inspection - Johnson Controls HVAC,1550.79,1616.6,65.81,4.24,INCLUDE,CLEAN,False,True
+TXN-2015,2026-02-25,2026-02,Logistics & Supply,Freight & Delivery,Freight & Delivery,Pallet transfer - cross dock - Chronopost Pro,4269.82,4935.76,665.94,15.6,INCLUDE,CLEAN,False,True
+TXN-2016,2026-02-21,2026-02,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Dock door repair - Rexel Electrical,2642.16,3053.83,411.67,15.58,INCLUDE,CLEAN,False,True
+TXN-2017,2026-02-16,2026-02,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Lift servicing - Otis Elevators,3488.29,3982.02,493.73,14.15,INCLUDE,CLEAN,False,True
+TXN-2018,2026-06-09,2026-06,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Otis Elevators,756.5,786.83,30.33,4.01,INCLUDE,CLEAN,False,True
+TXN-2019,2026-04-01,2026-04,Logistics & Supply,Office & Supplies,Office & Supplies,Cleaning supplies - Staples Business,510.57,477.26,-33.31,-6.52,INCLUDE,CLEAN,False,True
+TXN-2020,2026-05-19,2026-05,Logistics & Supply,Freight & Delivery,Freight & Delivery,Carrier fuel surcharge - Chronopost Pro,2741.59,3096.98,355.39,12.96,INCLUDE,CLEAN,False,True
+TXN-2021,2026-06-10,2026-06,Store Operations,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - ADP Payroll Services,1.0,1145.39,1144.39,,INCLUDE_FLAGGED,TINY_BUDGET,True,True
+TXN-2022,2026-03-01,2026-03,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - Randstad Temp Staffing,8586.87,8168.52,-418.35,-4.87,INCLUDE,CLEAN,False,True
+TXN-2023,2026-02-01,2026-02,Marketing,Digital Ads & Promo,Digital Ads & Promo,Retail media - in-store screens - JCDecaux Retail Display,4516.77,4375.04,-141.73,-3.14,INCLUDE_FLAGGED,NEAR_DUPLICATE,True,True
+TXN-2024,2026-04-13,2026-04,Store Operations,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - Randstad Temp Staffing,9109.18,9354.61,245.43,2.69,INCLUDE,CLEAN,False,True
+TXN-2025,2026-03-24,2026-03,IT & Systems,Professional Services,Professional Services,Consulting - process improvement - Baker Legal,7054.42,7552.15,497.73,7.06,INCLUDE,CLEAN,False,True
+TXN-2026,2026-05-25,2026-05,Marketing,Digital Ads & Promo,Digital Ads & Promo,Affiliate commission - JCDecaux Retail Display,4816.6,4594.11,-222.49,-4.62,INCLUDE,CLEAN,False,True
+TXN-2027,2026-04-11,2026-04,Store Operations,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - Randstad Temp Staffing,13058.91,13574.72,515.81,3.95,INCLUDE,CLEAN,False,True
+TXN-2028,2026-03-22,2026-03,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Dock door repair - Otis Elevators,3572.15,4044.58,472.43,13.23,INCLUDE,CLEAN,False,True
+TXN-2029,2026-06-11,2026-06,Finance & Admin,Utilities & Rent,Utilities & Rent,Water & waste - Engie Pro Energy,6923.5,6955.41,31.91,0.46,INCLUDE,CLEAN,False,True
+TXN-2030,2026-01-11,2026-01,Logistics & Supply,Freight & Delivery,Freight & Delivery,Outbound delivery - last mile - Chronopost Pro,3591.13,4286.57,695.44,19.37,INCLUDE,CLEAN,False,True
+TXN-2031,2026-05-03,2026-05,Store Operations,Utilities & Rent,Utilities & Rent,Water & waste - Engie Pro Energy,6593.04,6949.19,356.15,5.4,INCLUDE,CLEAN,False,True
+TXN-2032,2026-02-15,2026-02,Finance & Admin,Software & Cloud,Software & Cloud,Cyber security tooling - Microsoft Azure,4076.87,4385.69,308.82,7.57,INCLUDE,CLEAN,False,True
+TXN-2033,2026-06-04,2026-06,Store Operations,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - ADP Payroll Services,13797.46,13256.01,-541.45,-3.92,INCLUDE,CLEAN,False,True
+TXN-2034,2026-02-12,2026-02,Finance & Admin,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - Randstad Temp Staffing,6493.98,6352.37,-141.61,-2.18,INCLUDE,CLEAN,False,True
+TXN-2035,2026-04-09,2026-04,Marketing,Office & Supplies,Office & Supplies,Printing - store signage - Staples Business,811.38,819.29,7.91,0.97,INCLUDE,CLEAN,False,True
+TXN-2036,2026-01-25,2026-01,IT & Systems,Professional Services,Professional Services,Consulting - process improvement - Deloitte Advisory,3724.17,4052.99,328.82,8.83,INCLUDE,CLEAN,False,True
+TXN-2037,2026-06-08,2026-06,IT & Systems,Software & Cloud,Software & Cloud,Cyber security tooling - Datadog Cloud,1243.18,1337.82,94.64,7.61,INCLUDE,CLEAN,False,True
+TXN-2038,2026-05-10,2026-05,Finance & Admin,Professional Services,Professional Services,External audit support - ProcessWorks Consulting,3955.11,4265.87,310.76,7.86,INCLUDE,CLEAN,False,True
+TXN-2039,2026-02-04,2026-02,Store Operations,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - internal payroll team,9637.81,8427.17,-1210.64,-12.56,INCLUDE,CLEAN,False,True
+TXN-2040,2026-05-07,2026-05,IT & Systems,Office & Supplies,Office & Supplies,Unbudgeted spend - Printing - store signage - Staples Business,0.0,3705.08,3705.08,,INCLUDE_FLAGGED,UNBUDGETED|OUTLIER,True,True
+TXN-2041,2026-01-09,2026-01,Marketing,Software & Cloud,Software & Cloud,SaaS subscription - CRM - Salesforce EMEA,2523.83,2653.22,129.39,5.13,INCLUDE,CLEAN,False,True
+TXN-2042,2026-06-08,2026-06,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Dock door repair - Otis Elevators,3539.5,3915.44,375.94,10.62,INCLUDE,CLEAN,False,True
+TXN-2043,2026-04-18,2026-04,IT & Systems,Software & Cloud,Software & Cloud,Data warehouse consumption - Datadog Cloud,3539.2,3867.44,328.24,9.27,INCLUDE,CLEAN,False,True
+TXN-2044,2026-06-06,2026-06,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Preventive HVAC inspection - Otis Elevators,3904.61,4219.36,314.75,8.06,INCLUDE,CLEAN,False,True
+TXN-2045,2026-05-03,2026-05,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Lift servicing - Otis Elevators,2333.57,2270.17,-63.4,-2.72,INCLUDE,CLEAN,False,True
+TXN-2046,2026-01-23,2026-01,Store Operations,Utilities & Rent,Utilities & Rent,Service charge - retail park - Veolia Water,4363.22,4533.19,169.97,3.9,INCLUDE,CLEAN,False,True
+TXN-2047,2026-04-24,2026-04,Logistics & Supply,Office & Supplies,Office & Supplies,Printing - store signage - Amazon Business,693.27,660.99,-32.28,-4.66,INCLUDE,CLEAN,False,True
+TXN-2048,2026-03-06,2026-03,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Shift premium - night replenishment - internal payroll team,13620.75,13392.81,-227.94,-1.67,INCLUDE,CLEAN,False,True
+TXN-2049,2026-03-03,2026-03,Marketing,Office & Supplies,Office & Supplies,IT peripherals - VistaPrint,786.9,844.47,57.57,7.32,INCLUDE,CLEAN,False,True
+TXN-2050,2026-03-18,2026-03,Finance & Admin,Professional Services,Professional Services,External audit support - Deloitte Advisory,3347.91,3561.25,213.34,6.37,INCLUDE,CLEAN,False,True
+TXN-2051,2026-01-01,2026-01,Marketing,Digital Ads & Promo,Digital Ads & Promo,Paid search - brand keywords - JCDecaux Retail Display,3435.53,3323.37,-112.16,-3.26,INCLUDE,CLEAN,False,True
+TXN-2052,2026-06-11,2026-06,Marketing,Digital Ads & Promo,Digital Ads & Promo,Programmatic display - Meta Ads Ireland,3968.32,3415.8,-552.52,-13.92,INCLUDE,CLEAN,False,True
+TXN-2053,2026-02-25,2026-02,IT & Systems,Software & Cloud,Software & Cloud,Cloud compute & storage - Datadog Cloud,3009.11,2864.63,-144.48,-4.8,INCLUDE,CLEAN,False,True
+TXN-2054,2026-01-16,2026-01,Finance & Admin,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - ADP Payroll Services,8967.74,8427.13,-540.61,-6.03,INCLUDE,CLEAN,False,True
+TXN-2055,2026-01-10,2026-01,Finance & Admin,Software & Cloud,Software & Cloud,SaaS subscription - CRM - Datadog Cloud,1372.33,1501.79,129.46,9.43,INCLUDE,CLEAN,False,True
+TXN-2056,2026-05-24,2026-05,IT & Systems,Professional Services,Professional Services,External audit support - Baker Legal,6298.19,6745.64,447.45,7.1,INCLUDE,CLEAN,False,True
+TXN-2057,2026-01-06,2026-01,Marketing,Digital Ads & Promo,Digital Ads & Promo,Paid social - campaign flight - Google Ads EMEA,1537.95,1525.7,-12.25,-0.8,INCLUDE,CLEAN,False,True
+TXN-2058,2026-05-24,2026-05,Marketing,Professional Services,Professional Services,Legal advisory - leases - Baker Legal,5827.82,6446.18,618.36,10.61,INCLUDE,CLEAN,False,True
+TXN-2059,2026-02-04,2026-02,IT & Systems,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - Randstad Temp Staffing,6531.97,6460.18,-71.79,-1.1,INCLUDE,CLEAN,False,True
+TXN-2060,2026-02-02,2026-02,Store Operations,Utilities & Rent,Utilities & Rent,Water & waste - Klepierre Retail Leases,8794.09,8342.88,-451.21,-5.13,INCLUDE,CLEAN,False,True
+TXN-2061,2026-06-24,2026-06,Store Operations,Office & Supplies,Office & Supplies,Uniform & PPE - VistaPrint,487.31,493.74,6.43,1.32,INCLUDE,CLEAN,False,True
+TXN-2062,2026-05-06,2026-05,IT & Systems,Software & Cloud,Software & Cloud,SaaS subscription - CRM - Microsoft Azure,3435.62,3658.76,223.14,6.49,INCLUDE,CLEAN,False,True
+TXN-2063,2026-06-28,2026-06,Marketing,Digital Ads & Promo,Digital Ads & Promo,Paid search - brand keywords - Meta Ads Ireland,4015.03,3754.25,-260.78,-6.5,INCLUDE,CLEAN,False,True
+TXN-2064,2026-04-25,2026-04,Marketing,Software & Cloud,Software & Cloud,Cyber security tooling - Salesforce EMEA,5316.25,5575.1,258.85,4.87,INCLUDE,CLEAN,False,True
+TXN-2065,2026-01-01,2026-01,Store Operations,Utilities & Rent,Utilities & Rent,Store lease - monthly - Engie Pro Energy,4105.27,4015.88,-89.39,-2.18,INCLUDE,CLEAN,False,True
+TXN-2066,2026-03-09,2026-03,Marketing,Software & Cloud,Software & Cloud,SaaS subscription - CRM - Datadog Cloud,4121.28,4677.4,556.12,13.49,INCLUDE,CLEAN,False,True
+TXN-2067,2026-02-21,2026-02,Store Operations,Office & Supplies,Office & Supplies,Printing - store signage - CityPost,1392.29,1433.93,41.64,2.99,INCLUDE,CLEAN,False,True
+TXN-2068,2026-03-12,2026-03,IT & Systems,Office & Supplies,Office & Supplies,IT peripherals - CityPost,1174.23,1183.34,9.11,0.78,INCLUDE,CLEAN,False,True
+TXN-2069,2026-06-25,2026-06,Marketing,Software & Cloud,Software & Cloud,SaaS subscription - CRM - Snowflake Inc,2763.14,3041.5,278.36,10.07,INCLUDE,CLEAN,False,True
+TXN-2070,2026-06-12,2026-06,Logistics & Supply,Office & Supplies,Office & Supplies,IT peripherals - VistaPrint,1326.58,1174.58,-152.0,-11.46,INCLUDE,CLEAN,False,True
+TXN-2071,2026-03-17,2026-03,IT & Systems,Software & Cloud,Software & Cloud,Licence renewal - BI platform - Microsoft Azure,2117.14,2273.41,156.27,7.38,INCLUDE,CLEAN,False,True
+TXN-2072,2026-02-06,2026-02,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Rexel Electrical,3876.95,4120.43,243.48,6.28,INCLUDE,CLEAN,False,True
+TXN-2073,2026-04-10,2026-04,Store Operations,Utilities & Rent,Utilities & Rent,Gas & heating - Veolia Water,7180.06,7085.62,-94.44,-1.32,INCLUDE,CLEAN,False,True
+TXN-2074,2026-03-03,2026-03,Finance & Admin,Professional Services,Professional Services,Consulting - process improvement - ProcessWorks Consulting,2274.64,2451.62,176.98,7.78,INCLUDE,CLEAN,False,True
+TXN-2075,2026-03-24,2026-03,Store Operations,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - Randstad Temp Staffing,12598.74,11940.32,-658.42,-5.23,INCLUDE,CLEAN,False,True
+TXN-2076,2026-03-13,2026-03,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Otis Elevators,2858.87,3269.0,410.13,14.35,INCLUDE,CLEAN,False,True
+TXN-2077,2026-02-13,2026-02,Store Operations,Utilities & Rent,Utilities & Rent,Electricity consumption - stores - Engie Pro Energy,5224.74,5189.0,-35.74,-0.68,INCLUDE,CLEAN,False,True
+TXN-2078,2026-01-19,2026-01,IT & Systems,Software & Cloud,Software & Cloud,SaaS subscription - CRM - Salesforce EMEA,4007.78,4493.13,485.35,12.11,INCLUDE,CLEAN,False,True
+TXN-2079,2026-01-12,2026-01,Marketing,Digital Ads & Promo,Digital Ads & Promo,Paid search - brand keywords - Google Ads EMEA,5285.12,4958.65,-326.47,-6.18,INCLUDE,CLEAN,False,True
+TXN-2080,2026-01-03,2026-01,Finance & Admin,Utilities & Rent,Utilities & Rent,Store lease - monthly - Veolia Water,8050.16,8218.49,168.33,2.09,INCLUDE,CLEAN,False,True
+TXN-2081,2026-02-03,2026-02,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Preventive HVAC inspection - Rexel Electrical,845.11,949.02,103.91,12.3,INCLUDE,CLEAN,False,True
+TXN-2082,2026-05-07,2026-05,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Preventive HVAC inspection - Otis Elevators,2914.57,3123.4,208.83,7.17,INCLUDE,CLEAN,False,True
+TXN-2083,2026-05-02,2026-05,Store Operations,Utilities & Rent,Utilities & Rent,Service charge - retail park - Klepierre Retail Leases,4322.1,4754.4,432.3,10.0,INCLUDE,CLEAN,False,True
+TXN-2084,2026-06-23,2026-06,Finance & Admin,Utilities & Rent,Utilities & Rent,Gas & heating - Engie Pro Energy,6095.25,5957.79,-137.46,-2.26,INCLUDE,CLEAN,False,True
+TXN-2085,2026-04-16,2026-04,Logistics & Supply,Freight & Delivery,Freight & Delivery,Carrier fuel surcharge - Chronopost Pro,4829.27,5500.74,671.47,13.9,INCLUDE,CLEAN,False,True
+TXN-2086,2026-02-23,2026-02,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - ADP Payroll Services,8328.81,7719.67,-609.14,-7.31,INCLUDE,CLEAN,False,True
+TXN-2087,2026-06-17,2026-06,IT & Systems,Office & Supplies,Office & Supplies,IT peripherals - Staples Business,1048.04,1104.2,56.16,5.36,INCLUDE,CLEAN,False,True
+TXN-2088,2026-04-22,2026-04,Marketing,Professional Services,Professional Services,Consulting - process improvement - Talent Partners,4691.25,5374.1,682.85,14.56,INCLUDE,CLEAN,False,True
+TXN-2089,2026-05-04,2026-05,Marketing,Professional Services,Professional Services,Legal advisory - leases - Baker Legal,3517.18,3947.18,430.0,12.23,INCLUDE,CLEAN,False,True
+TXN-2090,2026-02-08,2026-02,Finance & Admin,Professional Services,Professional Services,Consulting - process improvement - Baker Legal,4678.76,5656.16,977.4,20.89,INCLUDE,CLEAN,False,True
+TXN-2091,2026-03-28,2026-03,Marketing,Office & Supplies,Office & Supplies,Uniform & PPE - Amazon Business,521.04,512.8,-8.24,-1.58,INCLUDE,CLEAN,False,True
+TXN-2092,2026-05-02,2026-05,Store Operations,Freight & Delivery,Freight & Delivery,Pallet transfer - cross dock - Geodis Logistics,2452.3,2858.18,405.88,16.55,INCLUDE,CLEAN,False,True
+TXN-2093,2026-02-13,2026-02,Marketing,Office & Supplies,Office & Supplies,IT peripherals - VistaPrint,1489.6,1525.7,36.1,2.42,INCLUDE,CLEAN,False,True
+TXN-2094,2026-02-15,2026-02,Store Operations,Office & Supplies,Office & Supplies,Printing - store signage - VistaPrint,907.31,939.23,31.92,3.52,INCLUDE,CLEAN,False,True
+TXN-2095,2026-05-12,2026-05,Store Operations,Utilities & Rent,Utilities & Rent,Electricity consumption - stores - Veolia Water,6313.53,5912.45,-401.08,-6.35,INCLUDE,CLEAN,False,True
+TXN-2096,2026-04-15,2026-04,Store Operations,Office & Supplies,Office & Supplies,IT peripherals - Staples Business,375.05,350.5,-24.55,-6.55,INCLUDE,CLEAN,False,True
+TXN-2097,2026-06-15,2026-06,IT & Systems,Software & Cloud,Software & Cloud,Cloud compute & storage - Salesforce EMEA,2384.8,2463.75,78.95,3.31,INCLUDE,CLEAN,False,True
+TXN-2098,2026-04-02,2026-04,Store Operations,Utilities & Rent,Utilities & Rent,Service charge - retail park - Engie Pro Energy,4223.57,4684.14,460.57,10.9,INCLUDE,CLEAN,False,True
+TXN-2099,2026-05-08,2026-05,Store Operations,Utilities & Rent,Utilities & Rent,Gas & heating - Klepierre Retail Leases,8424.19,9204.41,780.22,9.26,INCLUDE,CLEAN,False,True
+TXN-2100,2026-05-14,2026-05,Finance & Admin,Utilities & Rent,Utilities & Rent,,7005.42,7505.15,499.73,7.13,INCLUDE_FLAGGED,BLANK_DESCRIPTION,True,True
+TXN-2101,2026-06-08,2026-06,Finance & Admin,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - ADP Payroll Services,12577.1,12216.22,-360.88,-2.87,INCLUDE,CLEAN,False,True
+TXN-2102,2026-06-18,2026-06,Marketing,Software & Cloud,Software & Cloud,Cloud compute & storage - Microsoft Azure,2319.43,2491.95,172.52,7.44,INCLUDE,CLEAN,False,True
+TXN-2103,2026-06-22,2026-06,Logistics & Supply,Utilities & Rent,Utilities & Rent,Service charge - retail park - Veolia Water,8941.26,9477.67,536.41,6.0,INCLUDE,CLEAN,False,True
+TXN-2104,2026-04-16,2026-04,Logistics & Supply,Freight & Delivery,Freight & Delivery,Pallet transfer - cross dock - Geodis Logistics,4932.41,5965.5,1033.09,20.94,INCLUDE,CLEAN,False,True
+TXN-2105,2026-02-07,2026-02,Finance & Admin,Software & Cloud,Software & Cloud,Cyber security tooling - Datadog Cloud,4266.47,4610.95,344.48,8.07,INCLUDE,CLEAN,False,True
+TXN-2106,2026-03-25,2026-03,Marketing,Software & Cloud,Software & Cloud,Data warehouse consumption - Datadog Cloud,2450.89,2525.15,74.26,3.03,INCLUDE,CLEAN,False,True
+TXN-2107,2026-04-07,2026-04,IT & Systems,Office & Supplies,Office & Supplies,Cleaning supplies - Staples Business,1481.64,1508.52,26.88,1.81,INCLUDE,CLEAN,False,True
+TXN-2108,2026-03-04,2026-03,Store Operations,Utilities & Rent,Utilities & Rent,Credit note - Service charge - retail park - Klepierre Retail Leases,8129.18,-2416.53,-10545.71,-129.73,INCLUDE_FLAGGED,CREDIT_NOTE,True,True
+TXN-2109,2026-03-11,2026-03,IT & Systems,Professional Services,Professional Services,External audit support - Deloitte Advisory,6297.44,6795.14,497.7,7.9,INCLUDE,CLEAN,False,True
+TXN-2110,2026-01-08,2026-01,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Dock door repair - Rexel Electrical,1023.62,1136.91,113.29,11.07,INCLUDE,CLEAN,False,True
+TXN-2111,2026-06-05,2026-06,Store Operations,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - Randstad Temp Staffing,6769.19,6493.31,-275.88,-4.08,INCLUDE,CLEAN,False,True
+TXN-2112,2026-04-25,2026-04,Store Operations,Utilities & Rent,Utilities & Rent,Service charge - retail park - Veolia Water,7258.3,7356.81,98.51,1.36,INCLUDE,CLEAN,False,True
+TXN-2113,2026-04-12,2026-04,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Lighting & electrical maintenance - Otis Elevators,1102.31,1206.03,103.72,9.41,INCLUDE,CLEAN,False,True
+TXN-2114,2026-04-27,2026-04,IT & Systems,Professional Services,Professional Services,External audit support - Deloitte Advisory,3140.75,3279.93,139.18,4.43,INCLUDE,CLEAN,False,True
+TXN-2115,2026-04-07,2026-04,Marketing,Professional Services,Professional Services,Consulting - process improvement - Deloitte Advisory,5868.71,6315.35,446.64,7.61,INCLUDE,CLEAN,False,True
+TXN-2116,2026-04-28,2026-04,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Dock door repair - Rexel Electrical,3104.04,3160.09,56.05,1.81,INCLUDE,CLEAN,False,True
+TXN-2117,2026-01-13,2026-01,IT & Systems,Professional Services,Professional Services,Legal advisory - leases - Baker Legal,5347.08,6277.88,930.8,17.41,INCLUDE,CLEAN,False,True
+TXN-2118,2026-02-17,2026-02,Store Operations,Office & Supplies,Office & Supplies,Printing - store signage - VistaPrint,420.05,428.89,8.84,2.1,INCLUDE,CLEAN,False,True
+TXN-2119,2026-05-14,2026-05,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Rexel Electrical,3091.47,3099.23,7.76,0.25,INCLUDE,CLEAN,False,True
+TXN-2120,2026-01-13,2026-01,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Preventive HVAC inspection - Otis Elevators,1208.63,1251.56,42.93,3.55,INCLUDE,CLEAN,False,True
+TXN-2122,2026-01-03,2026-01,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Dock door repair - Otis Elevators,3205.34,3588.83,383.49,11.96,INCLUDE,CLEAN,False,True
+TXN-2123,2026-02-23,2026-02,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Lift servicing - Otis Elevators,773.03,865.23,92.2,11.93,INCLUDE,CLEAN,False,True
+TXN-2124,2026-01-07,2026-01,Finance & Admin,Utilities & Rent,Utilities & Rent,Service charge - retail park - Engie Pro Energy,5757.24,6254.63,497.39,8.64,INCLUDE,CLEAN,False,True
+TXN-2125,2026-05-18,2026-05,Logistics & Supply,Utilities & Rent,Utilities & Rent,Water & waste - Engie Pro Energy,5711.61,5972.19,260.58,4.56,INCLUDE,CLEAN,False,True
+TXN-2126,2026-06-24,2026-06,IT & Systems,Professional Services,Professional Services,Recruitment agency fees - ProcessWorks Consulting,2549.92,2887.82,337.9,13.25,INCLUDE,CLEAN,False,True
+TXN-2127,2026-04-01,2026-04,Store Operations,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - Randstad Temp Staffing,10617.82,9993.41,-624.41,-5.88,INCLUDE,CLEAN,False,True
+TXN-2128,2026-02-13,2026-02,Finance & Admin,Software & Cloud,Software & Cloud,Cyber security tooling - Datadog Cloud,2253.77,2461.69,207.92,9.23,INCLUDE,CLEAN,False,True
+TXN-2129,2026-02-05,2026-02,IT & Systems,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - internal payroll team,6240.58,5733.66,-506.92,-8.12,INCLUDE,CLEAN,False,True
+TXN-2130,2026-05-13,2026-05,Marketing,Software & Cloud,Software & Cloud,Annual licence renewal - billed in one month,3847.19,13713.94,9866.75,256.47,INCLUDE_FLAGGED,OUTLIER,True,True
+TXN-2131,2026-05-02,2026-05,Marketing,Office & Supplies,Office & Supplies,Uniform & PPE - VistaPrint,450.31,443.74,-6.57,-1.46,INCLUDE,CLEAN,False,True
+TXN-2132,2026-04-20,2026-04,Marketing,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - ADP Payroll Services,8265.76,7929.84,-335.92,-4.06,INCLUDE,CLEAN,False,True
+TXN-2133,2026-02-09,2026-02,Marketing,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - internal payroll team,12107.72,11509.31,-598.41,-4.94,INCLUDE,CLEAN,False,True
+TXN-2134,2026-06-22,2026-06,Marketing,Office & Supplies,Office & Supplies,Stationery & consumables - VistaPrint,851.02,687.98,-163.04,-19.16,INCLUDE,CLEAN,False,True
+TXN-2135,2026-05-25,2026-05,Finance & Admin,Software & Cloud,Software & Cloud,Cloud compute & storage - Snowflake Inc,2661.33,2661.21,-0.12,-0.0,INCLUDE,CLEAN,False,True
+TXN-2136,2026-02-12,2026-02,Marketing,Office & Supplies,Office & Supplies,Stationery & consumables - Staples Business,1044.4,1064.06,19.66,1.88,INCLUDE,CLEAN,False,True
+TXN-2137,2026-05-06,2026-05,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Otis Elevators,1674.07,1768.0,93.93,5.61,INCLUDE,CLEAN,False,True
+TXN-2138,2026-03-27,2026-03,Marketing,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - ADP Payroll Services,8589.4,7741.42,-847.98,-9.87,INCLUDE,CLEAN,False,True
+TXN-2139,2026-03-11,2026-03,Store Operations,Office & Supplies,Office & Supplies,Uniform & PPE - Amazon Business,566.33,612.53,46.2,8.16,INCLUDE,CLEAN,False,True
+TXN-2140,2026-04-23,2026-04,Logistics & Supply,Utilities & Rent,Utilities & Rent,Service charge - retail park - Veolia Water,5594.97,5383.25,-211.72,-3.78,INCLUDE,CLEAN,False,True
+TXN-2141,2026-06-08,2026-06,Marketing,Digital Ads & Promo,Digital Ads & Promo,Programmatic display - Google Ads EMEA,5694.77,5367.65,-327.12,-5.74,INCLUDE,CLEAN,False,True
+TXN-2142,2026-06-02,2026-06,Store Operations,Utilities & Rent,Utilities & Rent,Credit note - Water & waste - Klepierre Retail Leases,8264.89,-1745.37,-10010.26,-121.12,INCLUDE_FLAGGED,CREDIT_NOTE,True,True
+TXN-2143,2026-03-07,2026-03,Finance & Admin,Software & Cloud,Software & Cloud,Cyber security tooling - Datadog Cloud,2840.98,3261.51,420.53,14.8,INCLUDE,CLEAN,False,True
+TXN-2144,2026-02-17,2026-02,Store Operations,Freight & Delivery,Freight & Delivery,Outbound delivery - last mile - Geodis Logistics,3189.15,3522.07,332.92,10.44,INCLUDE,CLEAN,False,True
+TXN-2145,2026-04-26,2026-04,Logistics & Supply,Utilities & Rent,Utilities & Rent,Store lease - monthly - Klepierre Retail Leases,3815.37,4038.33,222.96,5.84,INCLUDE,CLEAN,False,True
+TXN-2146,2026-03-27,2026-03,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Lift servicing - Otis Elevators,1062.85,1144.99,82.14,7.73,INCLUDE,CLEAN,False,True
+TXN-2147,2026-01-27,2026-01,Store Operations,Freight & Delivery,Freight & Delivery,Carrier fuel surcharge - Chronopost Pro,4630.38,5348.02,717.64,15.5,INCLUDE,CLEAN,False,True
+TXN-2148,2026-01-10,2026-01,Logistics & Supply,Office & Supplies,Office & Supplies,Printing - store signage - Amazon Business,1056.98,1028.78,-28.2,-2.67,INCLUDE,CLEAN,False,True
+TXN-2149,2026-06-22,2026-06,Store Operations,Utilities & Rent,Utilities & Rent,Gas & heating - Klepierre Retail Leases,4591.96,4014.08,-577.88,-12.58,INCLUDE,CLEAN,False,True
+TXN-2150,2026-03-17,2026-03,Store Operations,Freight & Delivery,Freight & Delivery,Carrier fuel surcharge - Chronopost Pro,4253.52,4682.1,428.58,10.08,INCLUDE,CLEAN,False,True
+TXN-2151,2026-01-21,2026-01,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Preventive HVAC inspection - Otis Elevators,1122.75,1151.61,28.86,2.57,INCLUDE,CLEAN,False,True
+TXN-2152,2026-02-17,2026-02,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - Randstad Temp Staffing,11753.93,10224.73,-1529.2,-13.01,INCLUDE,CLEAN,False,True
+TXN-2153,2026-03-01,2026-03,Logistics & Supply,Freight & Delivery,Freight & Delivery,Pallet transfer - cross dock - Geodis Logistics,2653.73,3242.68,588.95,22.19,INCLUDE,CLEAN,False,True
+TXN-2154,2026-01-12,2026-01,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - internal payroll team,6771.91,6523.26,-248.65,-3.67,INCLUDE,CLEAN,False,True
+TXN-2155,2026-05-03,2026-05,Finance & Admin,Software & Cloud,Software & Cloud,Licence renewal - BI platform - Salesforce EMEA,4635.75,4585.57,-50.18,-1.08,INCLUDE,CLEAN,False,True
+TXN-2156,2026-06-12,2026-06,IT & Systems,Office & Supplies,Office & Supplies,IT peripherals - VistaPrint,1166.06,1091.25,-74.81,-6.42,INCLUDE,CLEAN,False,True
+TXN-2157,2026-06-14,2026-06,Marketing,Office & Supplies,Office & Supplies,Cleaning supplies - VistaPrint,1409.77,1291.28,-118.49,-8.4,INCLUDE,CLEAN,False,True
+TXN-2158,2026-02-20,2026-02,IT & Systems,Payroll & Overtime,Payroll & Overtime,Shift premium - night replenishment - ADP Payroll Services,8840.23,8698.25,-141.98,-1.61,INCLUDE,CLEAN,False,True
+TXN-2159,2026-03-11,2026-03,Store Operations,Freight & Delivery,Freight & Delivery,Pallet transfer - cross dock - Geodis Logistics,4707.26,5408.23,700.97,14.89,INCLUDE,CLEAN,False,True
+TXN-2160,2026-06-01,2026-06,Finance & Admin,Utilities & Rent,Utilities & Rent,Store lease - monthly - Klepierre Retail Leases,4423.76,4914.72,490.96,11.1,INCLUDE,CLEAN,False,True
+TXN-2161,2026-03-25,2026-03,Marketing,Digital Ads & Promo,Digital Ads & Promo,Retail media - in-store screens - Google Ads EMEA,3309.65,3032.93,-276.72,-8.36,INCLUDE,CLEAN,False,True
+TXN-2162,2026-02-28,2026-02,Store Operations,Utilities & Rent,Utilities & Rent,Water & waste - Veolia Water,3876.19,4030.09,153.9,3.97,INCLUDE,CLEAN,False,True
+TXN-2163,2026-06-22,2026-06,Store Operations,Freight & Delivery,Freight & Delivery,Outbound delivery - last mile - Chronopost Pro,3952.3,4516.46,564.16,14.27,INCLUDE,CLEAN,False,True
+TXN-2164,2026-05-26,2026-05,Marketing,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - internal payroll team,10935.61,10068.64,-866.97,-7.93,INCLUDE,CLEAN,False,True
+TXN-2165,2026-01-05,2026-01,Marketing,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - Randstad Temp Staffing,7695.89,7530.44,-165.45,-2.15,INCLUDE,CLEAN,False,True
+TXN-2166,2026-06-16,2026-06,Store Operations,Freight & Delivery,Freight & Delivery,Expedited air freight - unplanned replenishment,3865.26,18942.63,15077.37,390.07,INCLUDE_FLAGGED,OUTLIER,True,True
+TXN-2167,2026-06-24,2026-06,Finance & Admin,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - internal payroll team,10039.7,9784.86,-254.84,-2.54,INCLUDE,CLEAN,False,True
+TXN-2168,2026-05-17,2026-05,Finance & Admin,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - Randstad Temp Staffing,7527.0,7269.16,-257.84,-3.43,INCLUDE,CLEAN,False,True
+TXN-2169,2026-05-07,2026-05,Store Operations,Freight & Delivery,Freight & Delivery,Return logistics - reverse flow - DHL Freight Europe,6167.1,6849.39,682.29,11.06,INCLUDE,CLEAN,False,True
+TXN-2170,2026-03-11,2026-03,Finance & Admin,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - internal payroll team,12264.25,12663.34,399.09,3.25,INCLUDE,CLEAN,False,True
+TXN-2171,2026-06-28,2026-06,IT & Systems,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - ADP Payroll Services,9508.09,8860.73,-647.36,-6.81,INCLUDE,CLEAN,False,True
+TXN-2172,2026-02-08,2026-02,Finance & Admin,Software & Cloud,Software & Cloud,Data warehouse consumption - Datadog Cloud,2646.72,2889.77,243.05,9.18,INCLUDE,CLEAN,False,True
+TXN-2173,2026-06-12,2026-06,Store Operations,Freight & Delivery,Freight & Delivery,Return logistics - reverse flow - Geodis Logistics,4223.59,4656.23,432.64,10.24,INCLUDE,CLEAN,False,True
+TXN-2174,2026-01-15,2026-01,Store Operations,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - internal payroll team,13503.61,12875.84,-627.77,-4.65,INCLUDE,CLEAN,False,True
+TXN-2175,2026-05-07,2026-05,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Johnson Controls HVAC,2281.18,2401.45,120.27,5.27,INCLUDE,CLEAN,False,True
+TXN-2176,2026-03-16,2026-03,IT & Systems,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - internal payroll team,9155.72,8695.51,-460.21,-5.03,INCLUDE,CLEAN,False,True
+TXN-2177,2026-02-25,2026-02,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Lift servicing - Rexel Electrical,1615.33,1776.78,161.45,9.99,INCLUDE,CLEAN,False,True
+TXN-2178,2026-02-23,2026-02,Logistics & Supply,Utilities & Rent,Utilities & Rent,Service charge - retail park - Veolia Water,9478.71,9242.68,-236.03,-2.49,INCLUDE,CLEAN,False,True
+TXN-2179,2026-03-18,2026-03,Store Operations,Office & Supplies,Office & Supplies,Stationery & consumables - Amazon Business,398.0,398.96,0.96,0.24,INCLUDE,CLEAN,False,True
+TXN-2180,2026-01-13,2026-01,Store Operations,Freight & Delivery,Freight & Delivery,Pallet transfer - cross dock - Chronopost Pro,5589.01,6452.37,863.36,15.45,INCLUDE,CLEAN,False,True
+TXN-2181,2026-01-09,2026-01,Store Operations,Freight & Delivery,Freight & Delivery,Outbound delivery - last mile - Geodis Logistics,3922.86,4183.97,261.11,6.66,INCLUDE,CLEAN,False,True
+TXN-2182,2026-04-13,2026-04,Store Operations,Office & Supplies,Office & Supplies,IT peripherals - VistaPrint,667.01,642.45,-24.56,-3.68,INCLUDE,CLEAN,False,True
+TXN-2183,2026-05-22,2026-05,Finance & Admin,Payroll & Overtime,Payroll & Overtime,Shift premium - night replenishment - ADP Payroll Services,10701.23,9896.4,-804.83,-7.52,INCLUDE,CLEAN,False,True
+TXN-2184,2026-01-17,2026-01,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Lift servicing - Otis Elevators,1079.89,1202.51,122.62,11.35,INCLUDE,CLEAN,False,True
+TXN-2185,2026-05-05,2026-05,Store Operations,Freight & Delivery,Freight & Delivery,Carrier fuel surcharge - Chronopost Pro,6866.04,7925.62,1059.58,15.43,INCLUDE,CLEAN,False,True
+TXN-2186,2026-06-22,2026-06,Logistics & Supply,Utilities & Rent,Utilities & Rent,Electricity consumption - stores - Klepierre Retail Leases,3971.2,4002.23,31.03,0.78,INCLUDE,CLEAN,False,True
+TXN-2187,2026-01-11,2026-01,Marketing,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - ADP Payroll Services,12474.59,11500.02,-974.57,-7.81,INCLUDE,CLEAN,False,True
+TXN-2188,2026-04-22,2026-04,IT & Systems,Professional Services,Professional Services,External audit support - Baker Legal,3037.04,3082.41,45.37,1.49,INCLUDE,CLEAN,False,True
+TXN-2189,2026-03-04,2026-03,Finance & Admin,Professional Services,Professional Services,Recruitment agency fees - ProcessWorks Consulting,5145.68,5783.0,637.32,12.39,INCLUDE,CLEAN,False,True
+TXN-2190,2026-01-13,2026-01,Store Operations,Freight & Delivery,Freight & Delivery,Inbound freight - regional hub - Chronopost Pro,5056.93,5586.59,529.66,10.47,INCLUDE,CLEAN,False,True
+TXN-2191,2026-05-21,2026-05,Store Operations,Office & Supplies,Office & Supplies,Uniform & PPE - Amazon Business,539.3,540.6,1.3,0.24,INCLUDE,CLEAN,False,True
+TXN-2192,2026-06-08,2026-06,Marketing,Software & Cloud,Software & Cloud,Cyber security tooling - Snowflake Inc,4762.07,5179.44,417.37,8.76,INCLUDE,CLEAN,False,True
+TXN-2193,2026-02-25,2026-02,Marketing,Software & Cloud,Software & Cloud,Cloud compute & storage - Salesforce EMEA,3382.91,3690.6,307.69,9.1,INCLUDE,CLEAN,False,True
+TXN-2194,2026-03-04,2026-03,Store Operations,Office & Supplies,Office & Supplies,Stationery & consumables - CityPost,1.0,1668.6,1667.6,,INCLUDE_FLAGGED,TINY_BUDGET,True,True
+TXN-2195,2026-02-26,2026-02,Finance & Admin,Office & Supplies,Office & Supplies,Cleaning supplies - VistaPrint,415.79,406.71,-9.08,-2.18,INCLUDE,CLEAN,False,True
+TXN-2196,2026-01-23,2026-01,IT & Systems,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - Randstad Temp Staffing,10807.88,11242.46,434.58,4.02,INCLUDE,CLEAN,False,True
+TXN-2197,2026-03-06,2026-03,Store Operations,Freight & Delivery,Freight & Delivery,Outbound delivery - last mile - Geodis Logistics,4803.54,5791.54,988.0,20.57,INCLUDE,CLEAN,False,True
+TXN-2199,2026-05-03,2026-05,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Rexel Electrical,2308.03,2829.58,521.55,22.6,INCLUDE,CLEAN,False,True
+TXN-2200,2026-06-02,2026-06,Finance & Admin,Professional Services,Professional Services,Legal advisory - leases - Talent Partners,3039.18,3322.14,282.96,9.31,INCLUDE,CLEAN,False,True
+TXN-2202,2026-05-04,2026-05,Store Operations,Office & Supplies,Office & Supplies,IT peripherals - CityPost,752.72,686.21,-66.51,-8.84,INCLUDE,CLEAN,False,True
+TXN-2203,2026-02-06,2026-02,Finance & Admin,Utilities & Rent,Utilities & Rent,Service charge - retail park - Klepierre Retail Leases,5963.4,6291.42,328.02,5.5,INCLUDE,CLEAN,False,True
+TXN-2204,2026-02-19,2026-02,Finance & Admin,Utilities & Rent,Utilities & Rent,Gas & heating - Veolia Water,5005.78,4440.58,-565.2,-11.29,INCLUDE,CLEAN,False,True
+TXN-2205,2026-04-27,2026-04,IT & Systems,Office & Supplies,Office & Supplies,Cleaning supplies - CityPost,1321.62,1396.84,75.22,5.69,INCLUDE,CLEAN,False,True
+TXN-2206,2026-01-08,2026-01,Store Operations,Freight & Delivery,Freight & Delivery,Return logistics - reverse flow - DHL Freight Europe,2637.94,3033.08,395.14,14.98,INCLUDE,CLEAN,False,True
+TXN-2207,2026-06-12,2026-06,Marketing,Digital Ads & Promo,Digital Ads & Promo,Paid social - campaign flight - JCDecaux Retail Display,2386.34,2120.69,-265.65,-11.13,INCLUDE,CLEAN,False,True
+TXN-2208,2026-01-09,2026-01,Logistics & Supply,Office & Supplies,Office & Supplies,Stationery & consumables - VistaPrint,469.83,460.07,-9.76,-2.08,INCLUDE,CLEAN,False,True
+TXN-2209,2026-06-09,2026-06,Store Operations,Office & Supplies,Office & Supplies,Uniform & PPE - VistaPrint,694.63,661.9,-32.73,-4.71,INCLUDE,CLEAN,False,True
+TXN-2210,2026-03-26,2026-03,Marketing,Digital Ads & Promo,Digital Ads & Promo,Programmatic display - JCDecaux Retail Display,4867.91,4755.02,-112.89,-2.32,INCLUDE,CLEAN,False,True
+TXN-2211,2026-04-07,2026-04,Finance & Admin,Utilities & Rent,Utilities & Rent,Electricity consumption - stores - Veolia Water,7832.4,8243.56,411.16,5.25,INCLUDE,CLEAN,False,True
+TXN-2212,2026-06-15,2026-06,Logistics & Supply,Freight & Delivery,Freight & Delivery,Inbound freight - regional hub - Chronopost Pro,3746.77,4333.05,586.28,15.65,INCLUDE,CLEAN,False,True
+TXN-2213,2026-06-03,2026-06,Finance & Admin,Utilities & Rent,Utilities & Rent,Gas & heating - Engie Pro Energy,8935.46,9385.52,450.06,5.04,INCLUDE,CLEAN,False,True
+TXN-2214,2026-04-02,2026-04,Logistics & Supply,Office & Supplies,Office & Supplies,Cleaning supplies - Amazon Business,795.94,787.42,-8.52,-1.07,INCLUDE,CLEAN,False,True
+TXN-2215,2026-06-25,2026-06,Store Operations,Freight & Delivery,Freight & Delivery,Inbound freight - regional hub - Geodis Logistics,3351.1,4148.7,797.6,23.8,INCLUDE,CLEAN,False,True
+TXN-2216,2026-05-15,2026-05,Finance & Admin,Utilities & Rent,Utilities & Rent,Water & waste - Klepierre Retail Leases,5931.84,5700.98,-230.86,-3.89,INCLUDE,CLEAN,False,True
+TXN-2218,2026-06-27,2026-06,Marketing,Software & Cloud,Software & Cloud,Cloud compute & storage - Microsoft Azure,1858.35,2021.69,163.34,8.79,INCLUDE,CLEAN,False,True
+TXN-2219,2026-05-02,2026-05,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Otis Elevators,3498.16,3823.84,325.68,9.31,INCLUDE,CLEAN,False,True
+TXN-2220,2026-02-14,2026-02,Store Operations,Payroll & Overtime,Payroll & Overtime,Shift premium - night replenishment - internal payroll team,6787.14,6880.93,93.79,1.38,INCLUDE,CLEAN,False,True
+TXN-2221,2026-06-06,2026-06,Marketing,Professional Services,Professional Services,Recruitment agency fees - Deloitte Advisory,6729.33,7922.47,1193.14,17.73,INCLUDE,CLEAN,False,True
+TXN-2222,2026-05-20,2026-05,Store Operations,Utilities & Rent,Utilities & Rent,Store lease - monthly - Veolia Water,3823.27,3652.19,-171.08,-4.47,INCLUDE,CLEAN,False,True
+TXN-2223,2026-01-06,2026-01,Marketing,Professional Services,Professional Services,Recruitment agency fees - Deloitte Advisory,5223.37,5846.24,622.87,11.92,INCLUDE,CLEAN,False,True
+TXN-2224,2026-04-01,2026-04,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - Randstad Temp Staffing,11742.2,11227.52,-514.68,-4.38,INCLUDE,CLEAN,False,True
+TXN-2225,2026-01-16,2026-01,Marketing,Office & Supplies,Office & Supplies,Printing - store signage - Amazon Business,1040.77,955.84,-84.93,-8.16,INCLUDE,CLEAN,False,True
+TXN-2226,2026-03-28,2026-03,IT & Systems,Software & Cloud,software  & cloud,SaaS subscription - CRM - Datadog Cloud,2501.88,2570.09,68.21,2.73,CORRECT_AND_INCLUDE,CATEGORY_NORMALISED,False,True
+TXN-2227,2026-05-15,2026-05,Marketing,Office & Supplies,Office & Supplies,Printing - store signage - VistaPrint,1054.45,970.95,-83.5,-7.92,INCLUDE,CLEAN,False,True
+TXN-2228,2026-06-26,2026-06,Marketing,Professional Services,Professional Services,Tax compliance support - Talent Partners,5963.47,6361.42,397.95,6.67,INCLUDE,CLEAN,False,True
+TXN-2229,2026-02-20,2026-02,Store Operations,Utilities & Rent,Utilities & Rent,Water & waste - Veolia Water,6874.99,6628.08,-246.91,-3.59,INCLUDE,CLEAN,False,True
+TXN-2230,2026-06-12,2026-06,Store Operations,Utilities & Rent,Utilities & Rent,Gas & heating - Engie Pro Energy,7628.6,8055.3,426.7,5.59,INCLUDE,CLEAN,False,True
+TXN-2231,2026-06-15,2026-06,Store Operations,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - ADP Payroll Services,13613.62,11879.87,-1733.75,-12.74,INCLUDE,CLEAN,False,True
+TXN-2232,2026-02-23,2026-02,Store Operations,Office & Supplies,Office & Supplies,IT peripherals - VistaPrint,692.47,709.03,16.56,2.39,INCLUDE,CLEAN,False,True
+TXN-2233,2026-04-05,2026-04,Finance & Admin,Software & Cloud,Software & Cloud,SaaS subscription - CRM - Salesforce EMEA,2099.2,2281.78,182.58,8.7,INCLUDE,CLEAN,False,True
+TXN-2234,2026-05-01,2026-05,IT & Systems,Professional Services,Professional Services,Tax compliance support - Talent Partners,5919.13,6451.07,531.94,8.99,INCLUDE,CLEAN,False,True
+TXN-2235,2026-06-01,2026-06,Store Operations,Freight & Delivery,Freight & Delivery,Inbound freight - regional hub - DHL Freight Europe,6292.06,7544.87,1252.81,19.91,INCLUDE,CLEAN,False,True
+TXN-2236,2026-02-19,2026-02,Store Operations,Utilities & Rent,Utilities & Rent,Store lease - monthly - Klepierre Retail Leases,6446.44,6446.34,-0.1,-0.0,INCLUDE,CLEAN,False,True
+TXN-2238,2026-03-05,2026-03,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Johnson Controls HVAC,1444.95,1643.41,198.46,13.73,INCLUDE,CLEAN,False,True
+TXN-2239,2026-01-03,2026-01,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Preventive HVAC inspection - Otis Elevators,3018.3,3422.66,404.36,13.4,INCLUDE,CLEAN,False,True
+TXN-2240,2026-01-08,2026-01,Logistics & Supply,Office & Supplies,Office & Supplies,Printing - store signage - Staples Business,1369.61,1320.9,-48.71,-3.56,INCLUDE,CLEAN,False,True
+TXN-2241,2026-01-24,2026-01,Store Operations,Utilities & Rent,Utilities & Rent,Gas & heating - Klepierre Retail Leases,6061.91,6254.12,192.21,3.17,INCLUDE,CLEAN,False,True
+TXN-2242,2026-02-04,2026-02,IT & Systems,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - ADP Payroll Services,6889.01,7412.91,523.9,7.6,INCLUDE,CLEAN,False,True
+TXN-2243,2026-06-20,2026-06,IT & Systems,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - Randstad Temp Staffing,10291.74,10135.69,-156.05,-1.52,INCLUDE,CLEAN,False,True
+TXN-2244,2026-05-26,2026-05,IT & Systems,Professional Services,Professional Services,Consulting - process improvement - Talent Partners,5325.12,5982.4,657.28,12.34,INCLUDE,CLEAN,False,True
+TXN-2245,2026-03-16,2026-03,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Preventive HVAC inspection - Rexel Electrical,3381.17,3639.44,258.27,7.64,INCLUDE,CLEAN,False,True
+TXN-2246,2026-03-17,2026-03,Finance & Admin,Office & Supplies,Office & Supplies,IT peripherals - CityPost,1400.56,1301.06,-99.5,-7.1,INCLUDE,CLEAN,False,True
+TXN-2247,2026-02-27,2026-02,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Dock door repair - Johnson Controls HVAC,2864.21,3078.67,214.46,7.49,INCLUDE,CLEAN,False,True
+TXN-2248,2026-01-08,2026-01,IT & Systems,Office & Supplies,Office & Supplies,Unbudgeted spend - Cleaning supplies - VistaPrint,0.0,3350.01,3350.01,,INCLUDE_FLAGGED,UNBUDGETED|OUTLIER,True,True
+TXN-2249,2026-04-18,2026-04,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Preventive HVAC inspection - Otis Elevators,2974.3,3332.05,357.75,12.03,INCLUDE,CLEAN,False,True
+TXN-2250,2026-04-15,2026-04,Store Operations,Freight & Delivery,Freight and Delivery,Outbound delivery - last mile - Geodis Logistics,2617.57,2938.0,320.43,12.24,CORRECT_AND_INCLUDE,CATEGORY_NORMALISED,False,True
+TXN-2251,2026-04-16,2026-04,Finance & Admin,Office & Supplies,Office & Supplies,Stationery & consumables - Amazon Business,1228.55,1313.47,84.92,6.91,INCLUDE,CLEAN,False,True
+TXN-2252,2026-02-04,2026-02,Logistics & Supply,Utilities & Rent,Utilities & Rent,Water & waste - Klepierre Retail Leases,8928.8,9407.03,478.23,5.36,INCLUDE,CLEAN,False,True
+TXN-2253,2026-06-09,2026-06,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Preventive HVAC inspection - Rexel Electrical,1801.47,1905.37,103.9,5.77,INCLUDE,CLEAN,False,True
+TXN-2254,2026-01-08,2026-01,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Johnson Controls HVAC,2839.45,2863.33,23.88,0.84,INCLUDE,CLEAN,False,True
+TXN-2255,2026-03-06,2026-03,Marketing,Professional Services,Professional Services,Legal advisory - leases - Deloitte Advisory,4513.49,5128.14,614.65,13.62,INCLUDE,CLEAN,False,True
+TXN-2256,2026-01-22,2026-01,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Preventive HVAC inspection - Johnson Controls HVAC,876.63,1037.61,160.98,18.36,INCLUDE,CLEAN,False,True
+TXN-2257,2026-03-01,2026-03,Store Operations,Office & Supplies,Office & Supplies,IT peripherals - Staples Business,1015.12,1029.32,14.2,1.4,INCLUDE,CLEAN,False,True
+TXN-2258,2026-02-12,2026-02,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Lighting & electrical maintenance - Otis Elevators,2981.37,3454.58,473.21,15.87,INCLUDE,CLEAN,False,True
+TXN-2259,2026-04-24,2026-04,Store Operations,Freight & Delivery,Freight & Delivery,Return logistics - reverse flow - Chronopost Pro,4860.29,5801.56,941.27,19.37,INCLUDE,CLEAN,False,True
+TXN-2260,2026-06-02,2026-06,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Dock door repair - Otis Elevators,2387.62,2701.37,313.75,13.14,INCLUDE,CLEAN,False,True
+TXN-2261,2026-03-03,2026-03,IT & Systems,Professional Services,Professional Services,Consulting - process improvement - Baker Legal,5075.46,5386.32,310.86,6.12,INCLUDE,CLEAN,False,True
+TXN-2262,2026-05-02,2026-05,Store Operations,Utilities & Rent,Utilities & Rent,Gas & heating - Klepierre Retail Leases,4690.19,4907.1,216.91,4.62,INCLUDE,CLEAN,False,True
+TXN-2263,2026-03-11,2026-03,IT & Systems,Payroll & Overtime,Payroll & Overtime,Shift premium - night replenishment - ADP Payroll Services,11500.57,10859.26,-641.31,-5.58,INCLUDE,CLEAN,False,True
+TXN-2264,2026-03-17,2026-03,Finance & Admin,Professional Services,Professional Services,Legal advisory - leases - ProcessWorks Consulting,2771.28,2918.14,146.86,5.3,INCLUDE,CLEAN,False,True
+TXN-2265,2026-02-18,2026-02,Store Operations,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - Randstad Temp Staffing,13676.71,13894.96,218.25,1.6,INCLUDE,CLEAN,False,True
+TXN-2266,2026-03-14,2026-03,Store Operations,Office & Supplies,Office & Supplies,Stationery & consumables - Staples Business,668.55,673.64,5.09,0.76,INCLUDE,CLEAN,False,True
+TXN-2267,2026-06-18,2026-06,Store Operations,Freight & Delivery,Logisitcs & Freight,Return logistics - reverse flow - Geodis Logistics,2567.33,2992.24,424.91,16.55,CORRECT_AND_INCLUDE,CATEGORY_NORMALISED,False,True
+TXN-2268,2026-06-07,2026-06,Store Operations,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - ADP Payroll Services,9522.95,9372.18,-150.77,-1.58,INCLUDE,CLEAN,False,True
+TXN-2269,2026-05-04,2026-05,Marketing,Office & Supplies,Office & Supplies,Uniform & PPE - Amazon Business,381.08,357.43,-23.65,-6.21,INCLUDE,CLEAN,False,True
+TXN-2270,2026-02-19,2026-02,Store Operations,Utilities & Rent,Utilities & Rent,Electricity consumption - stores - Engie Pro Energy,9218.62,9660.19,441.57,4.79,INCLUDE,CLEAN,False,True
+TXN-2271,2026-03-17,2026-03,Finance & Admin,Utilities & Rent,Utilities & Rent,Gas & heating - Veolia Water,5536.99,5476.3,-60.69,-1.1,INCLUDE,CLEAN,False,True
+TXN-2272,2026-03-11,2026-03,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Johnson Controls HVAC,3965.26,4417.36,452.1,11.4,INCLUDE,CLEAN,False,True
+TXN-2273,2026-02-07,2026-02,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - internal payroll team,8641.56,8334.28,-307.28,-3.56,INCLUDE,CLEAN,False,True
+TXN-2274,2026-06-15,2026-06,Store Operations,Office & Supplies,Office & Supplies,Uniform & PPE - VistaPrint,398.7,367.91,-30.79,-7.72,INCLUDE,CLEAN,False,True
+TXN-2275,2026-06-02,2026-06,Store Operations,Utilities & Rent,Utilities & Rent,Gas & heating - Klepierre Retail Leases,5195.14,5364.63,169.49,3.26,INCLUDE,CLEAN,False,True
+TXN-2276,2026-01-25,2026-01,Marketing,Software & Cloud,Software & Cloud,Cyber security tooling - Microsoft Azure,2678.79,2849.75,170.96,6.38,INCLUDE,CLEAN,False,True
+TXN-2277,2026-01-25,2026-01,Marketing,Office & Supplies,Office & Supplies,Uniform & PPE - Amazon Business,1417.55,1377.3,-40.25,-2.84,INCLUDE,CLEAN,False,True
+TXN-2278,2026-04-21,2026-04,Finance & Admin,Utilities & Rent,Utilities & Rent,Store lease - monthly - Veolia Water,8917.91,9269.06,351.15,3.94,INCLUDE,CLEAN,False,True
+TXN-2279,2026-04-27,2026-04,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Lift servicing - Otis Elevators,852.4,1007.24,154.84,18.17,INCLUDE,CLEAN,False,True
+TXN-2281,2026-02-11,2026-02,Store Operations,Office & Supplies,Office & Supplies,Printing - store signage - Staples Business,1409.8,1364.89,-44.91,-3.19,INCLUDE,CLEAN,False,True
+TXN-2282,2026-02-14,2026-02,Store Operations,Utilities & Rent,Utilities & Rent,Store lease - monthly - Klepierre Retail Leases,8180.82,7948.13,-232.69,-2.84,INCLUDE,CLEAN,False,True
+TXN-2283,2026-02-12,2026-02,Store Operations,Freight & Delivery,Freight & Delivery,Carrier fuel surcharge - DHL Freight Europe,5139.43,6111.96,972.53,18.92,INCLUDE,CLEAN,False,True
+TXN-2284,2026-04-08,2026-04,Store Operations,Utilities & Rent,Utilities & Rent,Store lease - monthly - Engie Pro Energy,8435.16,8715.53,280.37,3.32,INCLUDE,CLEAN,False,True
+TXN-2285,2026-01-03,2026-01,Finance & Admin,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - ADP Payroll Services,7191.67,6406.22,-785.45,-10.92,INCLUDE,CLEAN,False,True
+TXN-2286,2026-06-28,2026-06,Logistics & Supply,Office & Supplies,Office & Supplies,Stationery & consumables - Staples Business,577.0,561.04,-15.96,-2.77,INCLUDE,CLEAN,False,True
+TXN-2287,2026-04-21,2026-04,IT & Systems,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - internal payroll team,11783.03,10593.24,-1189.79,-10.1,INCLUDE,CLEAN,False,True
+TXN-2288,2026-06-26,2026-06,Finance & Admin,Software & Cloud,Software & Cloud,Cyber security tooling - Snowflake Inc,4986.76,5177.86,191.1,3.83,INCLUDE,CLEAN,False,True
+TXN-2289,2026-06-10,2026-06,Store Operations,Freight & Delivery,Freight & Delivery,Outbound delivery - last mile - DHL Freight Europe,6514.82,6987.83,473.01,7.26,INCLUDE,CLEAN,False,True
+TXN-2290,2026-02-04,2026-02,Marketing,Professional Services,Professional Services,Consulting - process improvement - ProcessWorks Consulting,2580.52,2852.55,272.03,10.54,INCLUDE,CLEAN,False,True
+TXN-2291,2026-06-06,2026-06,Store Operations,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - Randstad Temp Staffing,12508.9,12965.7,456.8,3.65,INCLUDE,CLEAN,False,True
+TXN-2292,2026-06-11,2026-06,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Rexel Electrical,3132.08,3445.56,313.48,10.01,INCLUDE,CLEAN,False,True
+TXN-2293,2026-02-27,2026-02,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Lift servicing - Rexel Electrical,1451.81,1673.79,221.98,15.29,INCLUDE,CLEAN,False,True
+TXN-2294,2026-01-03,2026-01,Finance & Admin,Utilities & Rent,Utilities & Rent,Gas & heating - Engie Pro Energy,4181.96,4183.07,1.11,0.03,INCLUDE,CLEAN,False,True
+TXN-2295,2026-04-21,2026-04,Store Operations,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - internal payroll team,10596.5,10832.14,235.64,2.22,INCLUDE,CLEAN,False,True
+TXN-2296,2026-04-21,2026-04,IT & Systems,Professional Services,Professional Services,Consulting - process improvement - Deloitte Advisory,4452.93,4856.39,403.46,9.06,INCLUDE,CLEAN,False,True
+TXN-2297,2026-06-25,2026-06,Logistics & Supply,Freight & Delivery,Freight & Delivery,Carrier fuel surcharge - Geodis Logistics,2604.38,2838.12,233.74,8.97,INCLUDE,CLEAN,False,True
+TXN-2298,2026-05-17,2026-05,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Lift servicing - Otis Elevators,1492.68,1699.76,207.08,13.87,INCLUDE,CLEAN,False,True
+TXN-2299,2026-05-02,2026-05,Logistics & Supply,Freight & Delivery,FREIGHT & DELIVERY,Inbound freight - regional hub - DHL Freight Europe,3980.45,4694.67,714.22,17.94,CORRECT_AND_INCLUDE,CATEGORY_NORMALISED,False,True
+TXN-2300,2026-06-08,2026-06,Finance & Admin,Payroll & Overtime,Payroll & Overtime,Shift premium - night replenishment - Randstad Temp Staffing,7274.77,7496.52,221.75,3.05,INCLUDE,CLEAN,False,True
+TXN-2301,2026-02-10,2026-02,Logistics & Supply,Utilities & Rent,Utilities & Rent,Electricity consumption - stores - Klepierre Retail Leases,4535.76,4387.74,-148.02,-3.26,INCLUDE,CLEAN,False,True
+TXN-2302,2026-05-27,2026-05,Logistics & Supply,Freight & Delivery,Freight & Delivery,Inbound freight - regional hub - Chronopost Pro,6541.91,7627.48,1085.57,16.59,INCLUDE,CLEAN,False,True
+TXN-2303,2026-01-12,2026-01,IT & Systems,Software & Cloud,Software & Cloud,SaaS subscription - CRM - Microsoft Azure,3461.16,3729.24,268.08,7.75,INCLUDE,CLEAN,False,True
+TXN-2304,2026-04-23,2026-04,Store Operations,Freight & Delivery,Freight & Delivery,Return logistics - reverse flow - Chronopost Pro,4599.63,5258.52,658.89,14.32,INCLUDE,CLEAN,False,True
+TXN-2305,2026-03-05,2026-03,Logistics & Supply,Utilities & Rent,Utilities & Rent,Service charge - retail park - Engie Pro Energy,4689.23,4784.03,94.8,2.02,INCLUDE,CLEAN,False,True
+TXN-2306,2026-01-21,2026-01,Store Operations,Office & Supplies,Office & Supplies,IT peripherals - Staples Business,454.4,411.22,-43.18,-9.5,INCLUDE,CLEAN,False,True
+TXN-2307,2026-06-14,2026-06,Store Operations,Office & Supplies,Office & Supplies,Uniform & PPE - VistaPrint,773.99,673.15,-100.84,-13.03,INCLUDE,CLEAN,False,True
+TXN-2308,2026-05-02,2026-05,Marketing,Software & Cloud,Software & Cloud,Cloud compute & storage - Salesforce EMEA,4779.51,4462.97,-316.54,-6.62,INCLUDE,CLEAN,False,True
+TXN-2309,2026-06-27,2026-06,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Dock door repair - Rexel Electrical,1378.14,1641.49,263.35,19.11,INCLUDE,CLEAN,False,True
+TXN-2310,2026-05-05,2026-05,Store Operations,Utilities & Rent,Utilities & Rent,Service charge - retail park - Klepierre Retail Leases,7093.56,6973.26,-120.3,-1.7,INCLUDE,CLEAN,False,True
+TXN-2311,2026-06-04,2026-06,Finance & Admin,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - Randstad Temp Staffing,10345.93,10048.14,-297.79,-2.88,INCLUDE,CLEAN,False,True
+TXN-2312,2026-01-03,2026-01,Finance & Admin,Software & Cloud,Software & Cloud,Cloud compute & storage - Salesforce EMEA,2204.43,2642.14,437.71,19.86,INCLUDE,CLEAN,False,True
+TXN-2313,2026-02-22,2026-02,Marketing,Payroll & Overtime,Payroll & Overtime,Shift premium - night replenishment - Randstad Temp Staffing,6584.9,6780.77,195.87,2.97,INCLUDE,CLEAN,False,True
+TXN-2314,2026-05-15,2026-05,Finance & Admin,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - ADP Payroll Services,7574.01,7513.08,-60.93,-0.8,INCLUDE,CLEAN,False,True
+TXN-2315,2026-02-01,2026-02,Store Operations,Office & Supplies,Office & Supplies,Uniform & PPE - Staples Business,869.62,839.26,-30.36,-3.49,INCLUDE,CLEAN,False,True
+TXN-2316,2026-06-01,2026-06,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Otis Elevators,2755.74,2924.75,169.01,6.13,INCLUDE,CLEAN,False,True
+TXN-2317,2026-03-15,2026-03,Store Operations,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - internal payroll team,11001.57,11331.3,329.73,3.0,INCLUDE,CLEAN,False,True
+TXN-2318,2026-06-12,2026-06,Logistics & Supply,Freight & Delivery,Freight & Delivery,Outbound delivery - last mile - Geodis Logistics,2603.09,2891.56,288.47,11.08,INCLUDE,CLEAN,False,True
+TXN-2319,2026-06-28,2026-06,IT & Systems,Office & Supplies,Office & Supplies,Stationery & consumables - Staples Business,1197.28,1184.58,-12.7,-1.06,INCLUDE,CLEAN,False,True
+TXN-2320,2026-03-10,2026-03,Store Operations,Freight & Delivery,Freight & Delivery,Outbound delivery - last mile - Chronopost Pro,5121.48,5638.54,517.06,10.1,INCLUDE,CLEAN,False,True
+TXN-2321,2026-03-20,2026-03,Store Operations,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - internal payroll team,7795.07,7993.45,198.38,2.54,INCLUDE,CLEAN,False,True
+TXN-2322,2026-02-18,2026-02,Logistics & Supply,Utilities & Rent,Utilities & Rent,Water & waste - Engie Pro Energy,5936.46,6017.17,80.71,1.36,INCLUDE,CLEAN,False,True
+TXN-2323,2026-03-21,2026-03,Marketing,Office & Supplies,Office & Supplies,Uniform & PPE - Amazon Business,542.45,504.64,-37.81,-6.97,INCLUDE,CLEAN,False,True
+TXN-2324,2026-06-15,2026-06,IT & Systems,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - Randstad Temp Staffing,9978.35,10255.81,277.46,2.78,INCLUDE,CLEAN,False,True
+TXN-2325,2026-01-26,2026-01,Marketing,Office & Supplies,Office & Supplies,Cleaning supplies - CityPost,465.2,460.25,-4.95,-1.06,INCLUDE,CLEAN,False,True
+TXN-2326,2026-01-12,2026-01,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Emergency chiller replacement - store 04,2774.89,15115.25,12340.36,444.72,INCLUDE_FLAGGED,OUTLIER,True,True
+TXN-2327,2026-05-09,2026-05,Store Operations,Payroll & Overtime,Payroll & Overtime,Shift premium - night replenishment - ADP Payroll Services,13572.99,13333.82,-239.17,-1.76,INCLUDE,CLEAN,False,True
+TXN-2328,2026-01-01,2026-01,Finance & Admin,Utilities & Rent,Utilities & Rent,Electricity consumption - stores - Veolia Water,7709.83,8481.64,771.81,10.01,INCLUDE,CLEAN,False,True
+TXN-2329,2026-01-07,2026-01,Marketing,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - internal payroll team,8782.84,7860.02,-922.82,-10.51,INCLUDE,CLEAN,False,True
+TXN-2330,2026-06-16,2026-06,IT & Systems,Professional Services,Professional Services,Recruitment agency fees - Deloitte Advisory,5269.65,5764.65,495.0,9.39,INCLUDE,CLEAN,False,True
+TXN-2331,2026-04-14,2026-04,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - internal payroll team,9861.62,9118.42,-743.2,-7.54,INCLUDE,CLEAN,False,True
+TXN-2332,2026-06-19,2026-06,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Dock door repair - Otis Elevators,2592.08,2774.36,182.28,7.03,INCLUDE,CLEAN,False,True
+TXN-2333,2026-01-20,2026-01,Store Operations,Office & Supplies,Office & Supplies,Cleaning supplies - Amazon Business,401.25,356.53,-44.72,-11.15,INCLUDE,CLEAN,False,True
+TXN-2334,2026-02-02,2026-02,Store Operations,Utilities & Rent,Utilities & Rent,Water & waste - Klepierre Retail Leases,6810.07,6411.8,-398.27,-5.85,INCLUDE,CLEAN,False,True
+TXN-2335,2026-04-16,2026-04,Store Operations,Utilities & Rent,Utilities & Rent,Store lease - monthly - Klepierre Retail Leases,7387.94,7502.18,114.24,1.55,INCLUDE,CLEAN,False,True
+TXN-2336,2026-05-16,2026-05,Marketing,Software & Cloud,Software & Cloud,Unbudgeted spend - Data warehouse consumption - Salesforce EMEA,0.0,3366.52,3366.52,,INCLUDE_FLAGGED,UNBUDGETED,True,True
+TXN-2337,2026-03-26,2026-03,Logistics & Supply,Office & Supplies,Office & Supplies,Printing - store signage - Staples Business,1436.26,1460.67,24.41,1.7,INCLUDE,CLEAN,False,True
+TXN-2338,2026-06-23,2026-06,Logistics & Supply,Office & Supplies,Office & Supplies,Stationery & consumables - Staples Business,373.11,337.57,-35.54,-9.53,INCLUDE,CLEAN,False,True
+TXN-2339,2026-06-17,2026-06,Store Operations,Payroll & Overtime,Payroll & Overtime,Shift premium - night replenishment - Randstad Temp Staffing,12187.91,12758.81,570.9,4.68,INCLUDE,CLEAN,False,True
+TXN-2340,2026-05-04,2026-05,Logistics & Supply,Utilities & Rent,Utilities & Rent,Store lease - monthly - Engie Pro Energy,8630.44,9131.17,500.73,5.8,INCLUDE,CLEAN,False,True
+TXN-2341,2026-02-28,2026-02,Logistics & Supply,Freight & Delivery,Freight & Delivery,Pallet transfer - cross dock - Geodis Logistics,4421.24,5118.08,696.84,15.76,INCLUDE,CLEAN,False,True
+TXN-2342,2026-06-17,2026-06,Finance & Admin,Software & Cloud,Software & Cloud,SaaS subscription - CRM - Snowflake Inc,4002.27,4082.56,80.29,2.01,INCLUDE,CLEAN,False,True
+TXN-2343,2026-01-11,2026-01,Store Operations,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - ADP Payroll Services,13358.6,12003.08,-1355.52,-10.15,INCLUDE,CLEAN,False,True
+TXN-2344,2026-04-17,2026-04,Logistics & Supply,Utilities & Rent,Utilities & Rent,Water & waste - Veolia Water,4382.24,4591.5,209.26,4.78,INCLUDE,CLEAN,False,True
+TXN-2345,2026-02-11,2026-02,Finance & Admin,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - ADP Payroll Services,6549.93,5882.99,-666.94,-10.18,INCLUDE,CLEAN,False,True
+TXN-2346,2026-05-18,2026-05,Store Operations,Freight & Delivery,Freight & Delivery,Credit note - Outbound delivery - last mile - Geodis Logistics,2490.03,-650.31,-3140.34,-126.12,INCLUDE_FLAGGED,CREDIT_NOTE,True,True
+TXN-2347,2026-03-20,2026-03,Store Operations,Office & Supplies,Office & Supplies,Uniform & PPE - Staples Business,1319.71,1253.97,-65.74,-4.98,INCLUDE,CLEAN,False,True
+TXN-2348,2026-01-16,2026-01,IT & Systems,Office & Supplies,Office & Supplies,Uniform & PPE - CityPost,884.78,894.37,9.59,1.08,INCLUDE,CLEAN,False,True
+TXN-2349,2026-03-14,2026-03,Finance & Admin,Office & Supplies,Office & Supplies,Cleaning supplies - CityPost,523.51,517.61,-5.9,-1.13,INCLUDE,CLEAN,False,True
+TXN-2350,2026-05-07,2026-05,Finance & Admin,Office & Supplies,Office & Supplies,Stationery & consumables - Amazon Business,520.9,471.56,-49.34,-9.47,INCLUDE,CLEAN,False,True
+TXN-2351,2026-02-25,2026-02,Marketing,Office & Supplies,Office & Supplies,Stationery & consumables - CityPost,793.79,789.97,-3.82,-0.48,INCLUDE,CLEAN,False,True
+TXN-2352,2026-01-26,2026-01,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Lift servicing - Rexel Electrical,2360.96,2634.28,273.32,11.58,INCLUDE,CLEAN,False,True
+TXN-2353,2026-06-01,2026-06,IT & Systems,Payroll & Overtime,Payroll & Overtime,Shift premium - night replenishment - internal payroll team,11376.4,10943.38,-433.02,-3.81,INCLUDE,CLEAN,False,True
+TXN-2354,2026-05-11,2026-05,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Lighting & electrical maintenance - Rexel Electrical,2016.63,2344.98,328.35,16.28,INCLUDE,CLEAN,False,True
+TXN-2355,2026-05-15,2026-05,Marketing,Software & Cloud,Software & Cloud,Cyber security tooling - Datadog Cloud,3759.51,3984.1,224.59,5.97,INCLUDE,CLEAN,False,True
+TXN-2356,2026-06-15,2026-06,Marketing,Software & Cloud,Software & Cloud,SaaS subscription - CRM - Snowflake Inc,1620.27,1743.14,122.87,7.58,INCLUDE,CLEAN,False,True
+TXN-2357,2026-05-10,2026-05,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Lift servicing - Johnson Controls HVAC,2912.19,3070.4,158.21,5.43,INCLUDE,CLEAN,False,True
+TXN-2358,2026-05-02,2026-05,Store Operations,Office & Supplies,Office & Supplies,Cleaning supplies - CityPost,966.29,918.64,-47.65,-4.93,INCLUDE,CLEAN,False,True
+TXN-2359,2026-04-04,2026-04,Store Operations,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - Randstad Temp Staffing,11464.52,10630.05,-834.47,-7.28,INCLUDE,CLEAN,False,True
+TXN-2360,2026-04-02,2026-04,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Johnson Controls HVAC,3025.36,3201.12,175.76,5.81,INCLUDE,CLEAN,False,True
+TXN-2361,2026-05-21,2026-05,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Lighting & electrical maintenance - Rexel Electrical,3497.29,3680.96,183.67,5.25,INCLUDE,CLEAN,False,True
+TXN-2362,2026-02-05,2026-02,Logistics & Supply,Utilities & Rent,Utilities & Rent,Service charge - retail park - Veolia Water,7351.18,7382.34,31.16,0.42,INCLUDE,CLEAN,False,True
+TXN-2363,2026-05-17,2026-05,Store Operations,Office & Supplies,Office & Supplies,Cleaning supplies - CityPost,1438.58,1458.65,20.07,1.4,INCLUDE,CLEAN,False,True
+TXN-2364,2026-05-03,2026-05,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - ADP Payroll Services,6555.03,6394.95,-160.08,-2.44,INCLUDE,CLEAN,False,True
+TXN-2365,2026-03-12,2026-03,IT & Systems,Software & Cloud,Software & Cloud,SaaS subscription - CRM - Microsoft Azure,1679.69,1690.62,10.93,0.65,INCLUDE,CLEAN,False,True
+TXN-2366,2026-06-05,2026-06,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Lighting & electrical maintenance - Otis Elevators,2510.22,2675.4,165.18,6.58,INCLUDE,CLEAN,False,True
+TXN-2367,2026-06-20,2026-06,Store Operations,Office & Supplies,Office & Supplies,Cleaning supplies - Staples Business,663.21,679.75,16.54,2.49,INCLUDE,CLEAN,False,True
+TXN-2368,2026-05-27,2026-05,Logistics & Supply,Freight & Delivery,Freight & Delivery,Credit note - Pallet transfer - cross dock - Geodis Logistics,5353.7,-481.48,-5835.18,-108.99,INCLUDE_FLAGGED,CREDIT_NOTE,True,True
+TXN-2369,2026-06-18,2026-06,Finance & Admin,Utilities & Rent,Utilities & Rent,Service charge - retail park - Klepierre Retail Leases,4785.28,5132.37,347.09,7.25,INCLUDE,CLEAN,False,True
+TXN-2370,2026-05-15,2026-05,Store Operations,Utilities & Rent,Utilities & Rent,Gas & heating - Veolia Water,5836.83,6230.77,393.94,6.75,INCLUDE,CLEAN,False,True
+TXN-2371,2026-03-19,2026-03,Finance & Admin,Software & Cloud,Software & Cloud,Licence renewal - BI platform - Snowflake Inc,2545.53,2686.89,141.36,5.55,INCLUDE,CLEAN,False,True
+TXN-2372,2026-04-12,2026-04,Marketing,Professional Services,Professional Services,External audit support - Deloitte Advisory,5640.32,6071.83,431.51,7.65,INCLUDE,CLEAN,False,True
+TXN-2373,2026-03-23,2026-03,Finance & Admin,Software & Cloud,Software & Cloud,Cloud compute & storage - Microsoft Azure,1589.22,1727.34,138.12,8.69,INCLUDE,CLEAN,False,True
+TXN-2374,2026-05-12,2026-05,Marketing,Digital Ads & Promo,Digital Ads & Promo,Paid social - campaign flight - Google Ads EMEA,2386.84,2360.72,-26.12,-1.09,INCLUDE,CLEAN,False,True
+TXN-2375,2026-02-17,2026-02,Marketing,Digital Ads & Promo,Digital Ads & Promo,Affiliate commission - Meta Ads Ireland,4350.63,4531.61,180.98,4.16,INCLUDE,CLEAN,False,True
+TXN-2376,2026-01-20,2026-01,Store Operations,Office & Supplies,Office & Supplies,IT peripherals - Amazon Business,1229.0,1155.02,-73.98,-6.02,INCLUDE,CLEAN,False,True
+TXN-2377,2026-02-10,2026-02,Store Operations,Office & Supplies,Office & Supplies,Cleaning supplies - CityPost,1401.81,1354.93,-46.88,-3.34,INCLUDE,CLEAN,False,True
+TXN-2378,2026-03-02,2026-03,Store Operations,Office & Supplies,Office & Supplies,IT peripherals - Amazon Business,1076.11,1095.84,19.73,1.83,INCLUDE,CLEAN,False,True
+TXN-2379,2026-02-21,2026-02,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Rexel Electrical,1182.17,1242.27,60.1,5.08,INCLUDE,CLEAN,False,True
+TXN-2380,2026-03-11,2026-03,Store Operations,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - Randstad Temp Staffing,8196.03,7872.58,-323.45,-3.95,INCLUDE,CLEAN,False,True
+TXN-2381,2026-01-02,2026-01,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - Randstad Temp Staffing,10453.42,10002.87,-450.55,-4.31,INCLUDE,CLEAN,False,True
+TXN-2382,2026-05-12,2026-05,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Dock door repair - Rexel Electrical,786.84,833.16,46.32,5.89,INCLUDE,CLEAN,False,True
+TXN-2383,2026-02-09,2026-02,Marketing,Office & Supplies,Office & Supplies,Printing - store signage - Staples Business,960.61,961.42,0.81,0.08,INCLUDE,CLEAN,False,True
+TXN-2384,2026-04-01,2026-04,Store Operations,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - ADP Payroll Services,7508.03,7646.65,138.62,1.85,INCLUDE,CLEAN,False,True
+TXN-2385,2026-02-10,2026-02,Store Operations,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - internal payroll team,7806.52,7503.05,-303.47,-3.89,INCLUDE,CLEAN,False,True
+TXN-2386,2026-06-15,2026-06,Logistics & Supply,Office & Supplies,Office & Supplies,Printing - store signage - VistaPrint,827.11,792.03,-35.08,-4.24,INCLUDE,CLEAN,False,True
+TXN-2387,2026-01-15,2026-01,IT & Systems,Office & Supplies,Office & Supplies,Cleaning supplies - CityPost,799.55,796.28,-3.27,-0.41,CORRECT_AND_INCLUDE,DATE_FORMAT_NORMALISED,False,True
+TXN-2388,2026-01-20,2026-01,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Preventive HVAC inspection - Johnson Controls HVAC,2004.39,2092.49,88.1,4.4,INCLUDE,CLEAN,False,True
+TXN-2389,2026-06-08,2026-06,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Otis Elevators,1677.76,1917.31,239.55,14.28,INCLUDE,CLEAN,False,True
+TXN-2390,2026-01-14,2026-01,Store Operations,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - Randstad Temp Staffing,9450.57,7954.96,-1495.61,-15.83,INCLUDE,CLEAN,False,True
+TXN-2391,2026-02-14,2026-02,Logistics & Supply,Utilities & Rent,Utilities & Rent,Service charge - retail park - Klepierre Retail Leases,5896.58,6096.77,200.19,3.4,INCLUDE,CLEAN,False,True
+TXN-2392,2026-04-05,2026-04,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Preventive HVAC inspection - Rexel Electrical,1717.73,1776.67,58.94,3.43,INCLUDE,CLEAN,False,True
+TXN-2394,2026-01-20,2026-01,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - ADP Payroll Services,13490.18,13405.47,-84.71,-0.63,INCLUDE,CLEAN,False,True
+TXN-2395,2026-05-26,2026-05,Logistics & Supply,Office & Supplies,Office & Supplies,IT peripherals - CityPost,1482.8,1441.73,-41.07,-2.77,INCLUDE,CLEAN,False,True
+TXN-2396,2026-02-06,2026-02,Store Operations,Freight & Delivery,Freight & Delivery,Return logistics - reverse flow - Chronopost Pro,2418.62,2568.63,150.01,6.2,INCLUDE,CLEAN,False,True
+TXN-2397,2026-04-09,2026-04,Store Operations,Office & Supplies,Office & Supplies,Cleaning supplies - Staples Business,1220.82,1239.95,19.13,1.57,INCLUDE,CLEAN,False,True
+TXN-2398,2026-06-27,2026-06,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - Randstad Temp Staffing,11018.95,11957.61,938.66,8.52,INCLUDE,CLEAN,False,True
+TXN-2399,2026-04-13,2026-04,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Lift servicing - Johnson Controls HVAC,2083.53,2126.8,43.27,2.08,INCLUDE,CLEAN,False,True
+TXN-2400,2026-04-16,2026-04,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Dock door repair - Otis Elevators,3209.91,3430.14,220.23,6.86,INCLUDE,CLEAN,False,True
+TXN-2401,2026-04-14,2026-04,Store Operations,Utilities & Rent,Utilities & Rent,Water & waste - Engie Pro Energy,8150.15,8314.83,164.68,2.02,INCLUDE,CLEAN,False,True
+TXN-2402,2026-03-04,2026-03,Finance & Admin,Utilities & Rent,Utilities & Rent,Electricity consumption - stores - Veolia Water,5554.79,6042.33,487.54,8.78,INCLUDE,CLEAN,False,True
+TXN-2403,2026-03-21,2026-03,Logistics & Supply,Office & Supplies,Office & Supplies,Printing - store signage - CityPost,1341.7,1266.56,-75.14,-5.6,INCLUDE,CLEAN,False,True
+TXN-2404,2026-01-25,2026-01,Marketing,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - internal payroll team,8401.99,7981.17,-420.82,-5.01,INCLUDE,CLEAN,False,True
+TXN-2405,2026-03-22,2026-03,Logistics & Supply,Utilities & Rent,Utilities & Rent,Store lease - monthly - Engie Pro Energy,8386.24,7931.17,-455.07,-5.43,INCLUDE,CLEAN,False,True
+TXN-2406,2026-06-08,2026-06,IT & Systems,Software & Cloud,Software & Cloud,Cyber security tooling - Snowflake Inc,2382.61,2490.64,108.03,4.53,INCLUDE,CLEAN,False,True
+TXN-2407,2026-01-14,2026-01,Store Operations,Office & Supplies,Office & Supplies,Printing - store signage - VistaPrint,1291.97,1312.48,20.51,1.59,INCLUDE,CLEAN,False,True
+TXN-2408,2026-01-02,2026-01,IT & Systems,Maintenance & Repairs,Maintenance & Repairs,Lift servicing - Otis Elevators,1291.01,1389.56,98.55,7.63,INCLUDE,CLEAN,False,True
+TXN-2409,2026-03-23,2026-03,Logistics & Supply,Utilities & Rent,Utilities & Rent,Water & waste - Engie Pro Energy,4706.36,4964.52,258.16,5.49,INCLUDE,CLEAN,False,True
+TXN-2410,2026-05-09,2026-05,IT & Systems,Professional Services,Professional Services,External audit support - ProcessWorks Consulting,3959.82,4273.89,314.07,7.93,INCLUDE,CLEAN,False,True
+TXN-2412,2026-06-28,2026-06,Store Operations,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - ADP Payroll Services,7111.2,7132.8,21.6,0.3,INCLUDE,CLEAN,False,True
+TXN-2413,2026-06-25,2026-06,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Dock door repair - Otis Elevators,1411.09,1445.13,34.04,2.41,INCLUDE,CLEAN,False,True
+TXN-2414,2026-03-18,2026-03,Store Operations,Payroll & Overtime,Payroll & Overtime,Shift premium - night replenishment - internal payroll team,7967.75,6504.2,-1463.55,-18.37,INCLUDE,CLEAN,False,True
+TXN-2416,2026-03-20,2026-03,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Dock door repair - Johnson Controls HVAC,4106.73,4168.16,61.43,1.5,INCLUDE,CLEAN,False,True
+TXN-2417,2026-04-27,2026-04,IT & Systems,Software & Cloud,Software & Cloud,Data warehouse consumption - Snowflake Inc,3110.02,3233.87,123.85,3.98,INCLUDE,CLEAN,False,True
+TXN-2418,2026-04-18,2026-04,Store Operations,Payroll & Overtime,Payroll & Overtime,,11793.36,11535.02,-258.34,-2.19,INCLUDE_FLAGGED,BLANK_DESCRIPTION,True,True
+TXN-2419,2026-02-24,2026-02,Marketing,Professional Services,Professional Services,External audit support - Talent Partners,5294.02,6156.02,862.0,16.28,INCLUDE,CLEAN,False,True
+TXN-2420,2026-02-10,2026-02,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Johnson Controls HVAC,3741.35,4016.53,275.18,7.36,INCLUDE,CLEAN,False,True
+TXN-2421,2026-05-28,2026-05,Store Operations,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - ADP Payroll Services,13154.19,12251.49,-902.7,-6.86,INCLUDE,CLEAN,False,True
+TXN-2422,2026-02-07,2026-02,Logistics & Supply,Office & Supplies,Office & Supplies,Stationery & consumables - VistaPrint,1235.12,1257.43,22.31,1.81,INCLUDE,CLEAN,False,True
+TXN-2423,2026-05-18,2026-05,Marketing,Software & Cloud,Software & Cloud,Cyber security tooling - Datadog Cloud,3886.0,4028.12,142.12,3.66,INCLUDE,CLEAN,False,True
+TXN-2424,2026-06-03,2026-06,Store Operations,Office & Supplies,Office & Supplies,Uniform & PPE - Staples Business,959.78,887.08,-72.7,-7.57,INCLUDE,CLEAN,False,True
+TXN-2425,2026-03-21,2026-03,Marketing,Payroll & Overtime,Payroll & Overtime,Monthly payroll allocation - store staff - ADP Payroll Services,7704.14,7768.42,64.28,0.83,INCLUDE,CLEAN,False,True
+TXN-2426,2026-04-10,2026-04,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Lighting & electrical maintenance - Otis Elevators,2394.35,2810.62,416.27,17.39,INCLUDE,CLEAN,False,True
+TXN-2427,2026-02-08,2026-02,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Weekend overtime - peak trading - ADP Payroll Services,9039.04,8451.79,-587.25,-6.5,INCLUDE,CLEAN,False,True
+TXN-2428,2026-05-14,2026-05,IT & Systems,Software & Cloud,Software & Cloud,Cyber security tooling - Datadog Cloud,4632.4,4930.61,298.21,6.44,INCLUDE,CLEAN,False,True
+TXN-2429,2026-01-10,2026-01,IT & Systems,Office & Supplies,Office & Supplies,IT peripherals - Amazon Business,921.29,804.23,-117.06,-12.71,INCLUDE,CLEAN,False,True
+TXN-2430,2026-01-01,2026-01,IT & Systems,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - Randstad Temp Staffing,9719.88,10401.67,681.79,7.01,INCLUDE,CLEAN,False,True
+TXN-2431,2026-04-20,2026-04,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - ADP Payroll Services,10524.86,9958.23,-566.63,-5.38,INCLUDE,CLEAN,False,True
+TXN-2432,2026-03-11,2026-03,Store Operations,Payroll & Overtime,Payroll & Overtime,Temporary staff - seasonal cover - ADP Payroll Services,10687.94,11732.79,1044.85,9.78,INCLUDE,CLEAN,False,True
+TXN-2433,2026-04-21,2026-04,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - internal payroll team,11723.43,11514.44,-208.99,-1.78,INCLUDE,CLEAN,False,True
+TXN-2434,2026-02-26,2026-02,Marketing,Office & Supplies,Office & Supplies,Uniform & PPE - VistaPrint,289.75,296.37,6.62,2.28,INCLUDE,CLEAN,False,True
+TXN-2435,2026-05-13,2026-05,Marketing,Office & Supplies,Office & Supplies,Printing - store signage - VistaPrint,1031.05,960.97,-70.08,-6.8,INCLUDE,CLEAN,False,True
+TXN-2436,2026-06-06,2026-06,IT & Systems,Professional Services,Professional Services,Consulting - process improvement - Talent Partners,2101.04,2189.62,88.58,4.22,INCLUDE,CLEAN,False,True
+TXN-2437,2026-06-24,2026-06,IT & Systems,Software & Cloud,Software & Cloud,SaaS subscription - CRM - Microsoft Azure,1385.16,1542.44,157.28,11.35,INCLUDE,CLEAN,False,True
+TXN-2438,2026-03-06,2026-03,Logistics & Supply,Payroll & Overtime,Payroll & Overtime,Agency cover - absence - internal payroll team,9325.84,8944.64,-381.2,-4.09,INCLUDE,CLEAN,False,True
+TXN-2439,2026-06-22,2026-06,Store Operations,Freight & Delivery, Freight & Delivery ,Inbound freight - regional hub - Chronopost Pro,2480.42,2616.98,136.56,5.51,CORRECT_AND_INCLUDE,CATEGORY_NORMALISED,False,True
+TXN-2440,2026-01-23,2026-01,Store Operations,Utilities & Rent,Utilities & Rent,Store lease - monthly - Klepierre Retail Leases,4683.21,4752.69,69.48,1.48,INCLUDE,CLEAN,False,True
+TXN-2441,2026-01-19,2026-01,Store Operations,Office & Supplies,Office & Supplies,Cleaning supplies - Amazon Business,473.63,460.47,-13.16,-2.78,INCLUDE,CLEAN,False,True
+TXN-2442,2026-05-24,2026-05,Store Operations,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Rexel Electrical,3484.22,3756.21,271.99,7.81,INCLUDE,CLEAN,False,True
+TXN-2443,2026-04-22,2026-04,Finance & Admin,Utilities & Rent,Utilities & Rent,Service charge - retail park - Veolia Water,5154.47,5350.36,195.89,3.8,INCLUDE,CLEAN,False,True
+TXN-2444,2026-03-01,2026-03,Logistics & Supply,Maintenance & Repairs,Maintenance & Repairs,Refrigeration repair - store - Rexel Electrical,4033.08,4325.44,292.36,7.25,INCLUDE,CLEAN,False,True
+TXN-2445,2026-01-25,2026-01,Marketing,Payroll & Overtime,Payroll & Overtime,Shift premium - night replenishment - ADP Payroll Services,8628.16,8064.82,-563.34,-6.53,INCLUDE,CLEAN,False,True
+TXN-2447,2026-02-12,2026-02,Finance & Admin,Office & Supplies,Office & Supplies,Uniform & PPE - CityPost,482.58,462.0,-20.58,-4.26,INCLUDE,CLEAN,False,True
+TXN-2448,2026-04-08,2026-04,Logistics & Supply,Utilities & Rent,Utilities & Rent,Electricity consumption - stores - Klepierre Retail Leases,6212.75,6253.54,40.79,0.66,INCLUDE,CLEAN,False,True
+TXN-2449,2026-03-04,2026-03,Marketing,Office & Supplies,Office & Supplies,Printing - store signage - VistaPrint,684.46,670.0,-14.46,-2.11,INCLUDE,CLEAN,False,True
+TXN-2450,2026-06-17,2026-06,Store Operations,Freight & Delivery,Freight & Delivery,Inbound freight - regional hub - DHL Freight Europe,3153.74,3742.85,589.11,18.68,INCLUDE,CLEAN,False,True
+TXN-2453,2026-03-13,2026-03,Marketing,Software & Cloud,Software & Cloud,Data warehouse consumption - Microsoft Azure,2743.8,2854.66,110.86,4.04,INCLUDE_FLAGGED,NEAR_DUPLICATE,True,True
+TXN-2454,2026-02-02,2026-02,Marketing,Digital Ads & Promo,Digital Ads & Promo,Retail media - in-store screens - JCDecaux Retail Display,4516.77,4375.04,-141.73,-3.14,INCLUDE_FLAGGED,NEAR_DUPLICATE,True,True

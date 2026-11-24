@@ -1,0 +1,16 @@
+txn_id,date,department,category,description,budget,actual_amount,variance_eur,variance_pct,dq_flags
+TXN-2108,2026-03-04,Store Operations,Utilities & Rent,Credit note - Service charge - retail park - Klepierre Retail Leases,8129.18,-2416.53,-10545.71,-129.73,CREDIT_NOTE
+TXN-2142,2026-06-02,Store Operations,Utilities & Rent,Credit note - Water & waste - Klepierre Retail Leases,8264.89,-1745.37,-10010.26,-121.12,CREDIT_NOTE
+TXN-2368,2026-05-27,Logistics & Supply,Freight & Delivery,Credit note - Pallet transfer - cross dock - Geodis Logistics,5353.7,-481.48,-5835.18,-108.99,CREDIT_NOTE
+TXN-2346,2026-05-18,Store Operations,Freight & Delivery,Credit note - Outbound delivery - last mile - Geodis Logistics,2490.03,-650.31,-3140.34,-126.12,CREDIT_NOTE
+TXN-2231,2026-06-15,Store Operations,Payroll & Overtime,Temporary staff - seasonal cover - ADP Payroll Services,13613.62,11879.87,-1733.75,-12.74,CLEAN
+TXN-2152,2026-02-17,Logistics & Supply,Payroll & Overtime,Weekend overtime - peak trading - Randstad Temp Staffing,11753.93,10224.73,-1529.2,-13.01,CLEAN
+TXN-2390,2026-01-14,Store Operations,Payroll & Overtime,Temporary staff - seasonal cover - Randstad Temp Staffing,9450.57,7954.96,-1495.61,-15.83,CLEAN
+TXN-2414,2026-03-18,Store Operations,Payroll & Overtime,Shift premium - night replenishment - internal payroll team,7967.75,6504.2,-1463.55,-18.37,CLEAN
+TXN-2343,2026-01-11,Store Operations,Payroll & Overtime,Temporary staff - seasonal cover - ADP Payroll Services,13358.6,12003.08,-1355.52,-10.15,CLEAN
+TXN-2039,2026-02-04,Store Operations,Payroll & Overtime,Temporary staff - seasonal cover - internal payroll team,9637.81,8427.17,-1210.64,-12.56,CLEAN
+TXN-2287,2026-04-21,IT & Systems,Payroll & Overtime,Temporary staff - seasonal cover - internal payroll team,11783.03,10593.24,-1189.79,-10.1,CLEAN
+TXN-2187,2026-01-11,Marketing,Payroll & Overtime,Agency cover - absence - ADP Payroll Services,12474.59,11500.02,-974.57,-7.81,CLEAN
+TXN-2329,2026-01-07,Marketing,Payroll & Overtime,Agency cover - absence - internal payroll team,8782.84,7860.02,-922.82,-10.51,CLEAN
+TXN-2421,2026-05-28,Store Operations,Payroll & Overtime,Monthly payroll allocation - store staff - ADP Payroll Services,13154.19,12251.49,-902.7,-6.86,CLEAN
+TXN-2164,2026-05-26,Marketing,Payroll & Overtime,Monthly payroll allocation - store staff - internal payroll team,10935.61,10068.64,-866.97,-7.93,CLEAN

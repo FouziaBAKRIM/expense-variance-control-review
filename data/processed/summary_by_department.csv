@@ -1,0 +1,6 @@
+department,txn_count,budget_eur,actual_eur,variance_eur,variance_pct
+IT & Systems,69,281482.92,297327.99,15845.07,5.63
+Marketing,73,282691.31,296855.3,14163.99,5.01
+Logistics & Supply,82,403534.06,416812.22,13278.16,3.29
+Store Operations,160,752172.77,762982.24,10809.47,1.44
+Finance & Admin,58,307176.48,312459.67,5283.19,1.72

@@ -1,0 +1,221 @@
+{
+  "dataset_name": "synthetic_retail_expenses",
+  "label": "SYNTHETIC_EDUCATIONAL",
+  "disclaimer": "Synthetic educational data generated for the Finance, Accounting & Audit project playbook. Contains no real employer, client, bank, payroll or personal financial data. Not an audit opinion, assurance engagement or financial advice.",
+  "generated_at_utc": "2026-11-22T11:45:07+00:00",
+  "generator": "scripts/generate_synthetic_data.py",
+  "seed": 20261122,
+  "currency": "EUR",
+  "amount_basis": "VAT-exclusive (net)",
+  "reporting_period": {
+    "start": "2026-01-01",
+    "end": "2026-06-30"
+  },
+  "row_count": 454,
+  "columns": [
+    "txn_id",
+    "date",
+    "department",
+    "category",
+    "description",
+    "budget",
+    "actual_amount",
+    "data_source"
+  ],
+  "totals": {
+    "budget": 2094168.45,
+    "actual_amount": 2161268.43,
+    "variance": 67099.98
+  },
+  "planted_anomalies": {
+    "blank_description": 2,
+    "exact_duplicate": 2,
+    "extreme_outlier": 3,
+    "inconsistent_category": 6,
+    "malformed_date": 4,
+    "missing_date": 4,
+    "near_duplicate": 2,
+    "negative_actual": 4,
+    "negative_budget": 1,
+    "out_of_period_date": 2,
+    "tiny_budget": 2,
+    "zero_budget": 3
+  },
+  "anomaly_register": [
+    {
+      "type": "inconsistent_category",
+      "note": "Category 'Freight & Delivery' recorded as 'freight & delivery'",
+      "txn_id": "TXN-2003"
+    },
+    {
+      "type": "inconsistent_category",
+      "note": "Category 'Freight & Delivery' recorded as 'FREIGHT & DELIVERY'",
+      "txn_id": "TXN-2299"
+    },
+    {
+      "type": "inconsistent_category",
+      "note": "Category 'Freight & Delivery' recorded as ' Freight & Delivery '",
+      "txn_id": "TXN-2439"
+    },
+    {
+      "type": "inconsistent_category",
+      "note": "Category 'Freight & Delivery' recorded as 'Freight and Delivery'",
+      "txn_id": "TXN-2250"
+    },
+    {
+      "type": "inconsistent_category",
+      "note": "Category 'Freight & Delivery' recorded as 'Logisitcs & Freight'",
+      "txn_id": "TXN-2267"
+    },
+    {
+      "type": "inconsistent_category",
+      "note": "Category 'Software & Cloud' recorded as 'software  & cloud'",
+      "txn_id": "TXN-2226"
+    },
+    {
+      "type": "exact_duplicate",
+      "note": "Exact copy of row 363: Temporary staff - seasonal cover - ADP Payroll Services",
+      "txn_id": "TXN-2451"
+    },
+    {
+      "type": "exact_duplicate",
+      "note": "Exact copy of row 347: Uniform & PPE - CityPost",
+      "txn_id": "TXN-2452"
+    },
+    {
+      "type": "near_duplicate",
+      "note": "Same amount/description as row 8, date shifted",
+      "txn_id": "TXN-2453"
+    },
+    {
+      "type": "near_duplicate",
+      "note": "Same amount/description as row 22, date shifted",
+      "txn_id": "TXN-2454"
+    },
+    {
+      "type": "missing_date",
+      "note": "Date blank (was 2026-05-18)",
+      "txn_id": "TXN-2217"
+    },
+    {
+      "type": "missing_date",
+      "note": "Date blank (was 2026-03-03)",
+      "txn_id": "TXN-2411"
+    },
+    {
+      "type": "missing_date",
+      "note": "Date blank (was 2026-06-03)",
+      "txn_id": "TXN-2237"
+    },
+    {
+      "type": "missing_date",
+      "note": "Date blank (was 2026-06-26)",
+      "txn_id": "TXN-2415"
+    },
+    {
+      "type": "malformed_date",
+      "note": "Date '31/02/2026' (was 2026-04-28)",
+      "txn_id": "TXN-2446"
+    },
+    {
+      "type": "malformed_date",
+      "note": "Date '2026-13-05' (was 2026-04-19)",
+      "txn_id": "TXN-2201"
+    },
+    {
+      "type": "malformed_date",
+      "note": "Date '15-Jan-26' (was 2026-04-09)",
+      "txn_id": "TXN-2387"
+    },
+    {
+      "type": "malformed_date",
+      "note": "Date '2026/04/31' (was 2026-06-05)",
+      "txn_id": "TXN-2393"
+    },
+    {
+      "type": "negative_actual",
+      "note": "Credit note of -481.48 EUR",
+      "txn_id": "TXN-2368"
+    },
+    {
+      "type": "negative_actual",
+      "note": "Credit note of -2,416.53 EUR",
+      "txn_id": "TXN-2108"
+    },
+    {
+      "type": "negative_actual",
+      "note": "Credit note of -650.31 EUR",
+      "txn_id": "TXN-2346"
+    },
+    {
+      "type": "negative_actual",
+      "note": "Credit note of -1,745.37 EUR",
+      "txn_id": "TXN-2142"
+    },
+    {
+      "type": "negative_budget",
+      "note": "Budget of -2,500.00 EUR",
+      "txn_id": "TXN-2198"
+    },
+    {
+      "type": "extreme_outlier",
+      "note": "Expedited air freight - unplanned replenishment (x4.2 actual)",
+      "txn_id": "TXN-2166"
+    },
+    {
+      "type": "extreme_outlier",
+      "note": "Annual licence renewal - billed in one month (x3.5 actual)",
+      "txn_id": "TXN-2130"
+    },
+    {
+      "type": "extreme_outlier",
+      "note": "Emergency chiller replacement - store 04 (x5.0 actual)",
+      "txn_id": "TXN-2326"
+    },
+    {
+      "type": "zero_budget",
+      "note": "Budget 0.00 with positive actual",
+      "txn_id": "TXN-2248"
+    },
+    {
+      "type": "zero_budget",
+      "note": "Budget 0.00 with positive actual",
+      "txn_id": "TXN-2336"
+    },
+    {
+      "type": "zero_budget",
+      "note": "Budget 0.00 with positive actual",
+      "txn_id": "TXN-2040"
+    },
+    {
+      "type": "tiny_budget",
+      "note": "Budget 1.00 EUR",
+      "txn_id": "TXN-2194"
+    },
+    {
+      "type": "tiny_budget",
+      "note": "Budget 1.00 EUR",
+      "txn_id": "TXN-2021"
+    },
+    {
+      "type": "out_of_period_date",
+      "note": "Date 2025-12-28 (was 2026-03-27)",
+      "txn_id": "TXN-2280"
+    },
+    {
+      "type": "out_of_period_date",
+      "note": "Date 2026-07-03 (was 2026-05-23)",
+      "txn_id": "TXN-2121"
+    },
+    {
+      "type": "blank_description",
+      "note": "Description empty",
+      "txn_id": "TXN-2100"
+    },
+    {
+      "type": "blank_description",
+      "note": "Description empty",
+      "txn_id": "TXN-2418"
+    }
+  ]
+}

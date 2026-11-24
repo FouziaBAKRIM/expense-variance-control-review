@@ -1,0 +1,16 @@
+txn_id,date,department,category,description,budget,actual_amount,variance_eur,variance_pct,dq_flags
+TXN-2166,2026-06-16,Store Operations,Freight & Delivery,Expedited air freight - unplanned replenishment,3865.26,18942.63,15077.37,390.07,OUTLIER
+TXN-2326,2026-01-12,Logistics & Supply,Maintenance & Repairs,Emergency chiller replacement - store 04,2774.89,15115.25,12340.36,444.72,OUTLIER
+TXN-2130,2026-05-13,Marketing,Software & Cloud,Annual licence renewal - billed in one month,3847.19,13713.94,9866.75,256.47,OUTLIER
+TXN-2040,2026-05-07,IT & Systems,Office & Supplies,Unbudgeted spend - Printing - store signage - Staples Business,0.0,3705.08,3705.08,,UNBUDGETED|OUTLIER
+TXN-2336,2026-05-16,Marketing,Software & Cloud,Unbudgeted spend - Data warehouse consumption - Salesforce EMEA,0.0,3366.52,3366.52,,UNBUDGETED
+TXN-2248,2026-01-08,IT & Systems,Office & Supplies,Unbudgeted spend - Cleaning supplies - VistaPrint,0.0,3350.01,3350.01,,UNBUDGETED|OUTLIER
+TXN-2194,2026-03-04,Store Operations,Office & Supplies,Stationery & consumables - CityPost,1.0,1668.6,1667.6,,TINY_BUDGET
+TXN-2235,2026-06-01,Store Operations,Freight & Delivery,Inbound freight - regional hub - DHL Freight Europe,6292.06,7544.87,1252.81,19.91,CLEAN
+TXN-2221,2026-06-06,Marketing,Professional Services,Recruitment agency fees - Deloitte Advisory,6729.33,7922.47,1193.14,17.73,CLEAN
+TXN-2021,2026-06-10,Store Operations,Payroll & Overtime,Monthly payroll allocation - store staff - ADP Payroll Services,1.0,1145.39,1144.39,,TINY_BUDGET
+TXN-2302,2026-05-27,Logistics & Supply,Freight & Delivery,Inbound freight - regional hub - Chronopost Pro,6541.91,7627.48,1085.57,16.59,CLEAN
+TXN-2185,2026-05-05,Store Operations,Freight & Delivery,Carrier fuel surcharge - Chronopost Pro,6866.04,7925.62,1059.58,15.43,CLEAN
+TXN-2432,2026-03-11,Store Operations,Payroll & Overtime,Temporary staff - seasonal cover - ADP Payroll Services,10687.94,11732.79,1044.85,9.78,CLEAN
+TXN-2104,2026-04-16,Logistics & Supply,Freight & Delivery,Pallet transfer - cross dock - Geodis Logistics,4932.41,5965.5,1033.09,20.94,CLEAN
+TXN-2197,2026-03-06,Store Operations,Freight & Delivery,Outbound delivery - last mile - Geodis Logistics,4803.54,5791.54,988.0,20.57,CLEAN

@@ -1,0 +1,10 @@
+TRUNCATE TABLE
+TRUNCATE TABLE
+COPY 454
+INSERT 0 454
+ANALYZE
+ rows_loaded | total_budget_eur | total_actual_eur | total_variance_eur 
+-------------+------------------+------------------+--------------------
+         454 |       2094168.45 |       2161268.43 |           67099.98
+(1 ligne)
+
