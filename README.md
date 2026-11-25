@@ -253,6 +253,8 @@ expense-variance-control-review/
 ├── tests/
 │   ├── test_pipeline.py                         # 17 rules, dispositions, reconciliation
 │   └── test_workbook.py                         # sheet and formula integrity
+├── .github/
+│   └── workflows/ci.yml                         # runs the unittest suite on push/PR
 ├── .gitignore
 ├── LICENSE
 ├── README.md
@@ -336,6 +338,7 @@ and results.
 | Documentation and one-page PDF | ✅ Complete |
 | Power BI visual dashboard | 🚧 Planned (design spec in `power_bi/README.md`) |
 | Automated tests (`unittest`) | ✅ Complete (`tests/`) |
+| CI workflow (GitHub Actions) | ✅ Added (`.github/workflows/ci.yml`) |
 | Git repository / GitHub publication | ✅ Committed & pushed to `main` |
 
 **Next milestones**
