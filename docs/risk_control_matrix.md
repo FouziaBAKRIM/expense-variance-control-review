@@ -8,8 +8,8 @@
 
 | | |
 |---|---|
-| Version | 1.0 |
-| Date | 2026-11-22 |
+| Version | 1.1 |
+| Date | 2026-11-25 |
 | Scope | Expense recording, approval, coding, budgeting and cut-off |
 | Evidence base | 454 synthetic transactions, H1 2026 |
 
@@ -39,7 +39,7 @@
 | 6 | Freight cost overrun / rate leakage | Spot rates, fuel surcharge, expedited mode, volume spike | Contracted rate card; shipment approval; monthly freight review | Carrier contract, rate card, shipment log, invoice | Was the invoiced rate consistent with the contract, and was expedited mode approved? | **Testable at total level:** freight +€30,829 (+16.7%); June +44.6%; one line +€15,077. Rate-card evidence required. |
 | 7 | Credit notes unmatched or mis-periodised | Credit received without original invoice; prior-period credit | Credit-note matching; supplier statement reconciliation; period allocation rule | Credit note, original invoice, supplier statement, accrual schedule | Is each credit matched to an original invoice and allocated to the right period? | **Not testable:** 4 credit notes (€5,293.69) but no invoice reference field. Match to supplier statements required. |
 | 8 | Period cut-off error | Late posting, accrual missed, manual journal | Close checklist; date validation; accrual and prepayment review | Ledger date, GRN date, accrual schedule, close checklist | Are there transactions dated outside the period, and were they accrued in the right month? | **Testable:** 2 out-of-period rows (€23,288.60): 2025-12-28 and 2026-07-03. Suggests a cut-off control gap. |
-| 9 | Poor data quality in reporting | Manual uploads, free-text fields, no validation | Upload validation rules; mandatory fields; DQ exception review | DQ log, upload specification, review sign-off | Are exceptions identified, reviewed and resolved before reporting? | **Testable:** 35 defects, 10 quarantined, 2 out-of-period, 18 flagged. A DQ log exists in this project; whether one exists in the business is unknown. |
+| 9 | Poor data quality in reporting | Manual uploads, free-text fields, no validation | Upload validation rules; mandatory fields; DQ exception review | DQ log, upload specification, review sign-off | Are exceptions identified, reviewed and resolved before reporting? | **Testable:** 37 unique flagged rows (7 corrected, 18 included-but-flagged, 10 quarantined, 2 out-of-period) across 39 check hits. A DQ log exists in this project; whether one exists in the business is unknown. |
 
 ---
 
@@ -66,7 +66,7 @@ cannot prove **operation** without logs, approvals and payment records.
 | Freight rates | Yes, by contract review | No — needs shipment and invoice matching |
 | Credit notes | Yes, by policy review | No — needs supplier statements |
 | Cut-off | Yes, by close checklist | Partly — 2 out-of-period rows found |
-| DQ review | Yes, by procedure review | Partly — 35 defects identified in this project |
+| DQ review | Yes, by procedure review | Partly — 37 flagged rows identified in this project (35 planted defects) |
 
 ---
 

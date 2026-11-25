@@ -160,6 +160,23 @@ variance-screen item.
 
 ---
 
+## Dashboard
+
+![Executive Overview design mockup](power_bi/screenshots/dashboard_mockup.png)
+
+*Design mockup of the Executive Overview page, rendered from
+`power_bi/screenshots/dashboard_mockup.html`. It is **not** a Power BI render: the
+`.pbix` is authored locally in Power BI Desktop. The build guide, DAX library,
+theme and page specifications are in [`power_bi/`](power_bi/README.md).*
+
+The report is designed as four core pages plus an appendix: Executive Overview,
+Variance Deep Dive, Data Quality & Controls, Follow-Up & Actions, and Method &
+Verification. See
+[`POWER_BI_BUILD_GUIDE.md` §2](power_bi/POWER_BI_BUILD_GUIDE.md#2-recommended-report-architecture)
+for the rationale and wireframes.
+
+---
+
 ## Data quality & control governance
 
 ### 17 automated checks, five dispositions
@@ -187,7 +204,8 @@ to the follow-up list.
 - 6 non-canonical category labels corrected; 0 unmapped categories remain.
 - 1 negative budget (−€2,500), 4 credit notes (€5,293.69), 3 unbudgeted lines
   (€10,421.61), 2 tiny budgets, 5 outliers, 2 blank descriptions.
-- 35 planted defects in total, all detected and disclosed.
+- 35 planted defects in total; 37 unique rows carry at least one flag (39 check
+  hits, because two rows carry two flags). All are detected and disclosed.
 
 ### 9-risk control matrix
 
@@ -201,7 +219,7 @@ to the follow-up list.
 | 6 | Freight rate leakage | Category and line variance testable; rate card needed for price |
 | 7 | Credit notes unmatched | 4 credits, €5,293.69; supplier statements needed |
 | 8 | Period cut-off error | 2 out-of-period rows, €23,288.60 |
-| 9 | Poor DQ in reporting | 35 defects, 10 quarantined, 18 flagged |
+| 9 | Poor DQ in reporting | 37 flagged rows: 7 corrected, 18 included-but-flagged, 10 quarantined, 2 out-of-period (39 check hits) |
 
 The matrix separates **control design** ("does a rule exist?") from **operating
 effectiveness** ("did it run?"). The ledger can test recording and detect
@@ -249,7 +267,19 @@ expense-variance-control-review/
 ├── deliverables/
 │   └── expense_review_workbook.xlsx             # 9 sheets, live variance and SUMIFS formulas
 ├── power_bi/
-│   └── README.md                                # dashboard design spec (report not yet built)
+│   ├── README.md                                # layer index: status, pages, non-negotiables
+│   ├── POWER_BI_BUILD_GUIDE.md                  # step-by-step build, page specs, verification
+│   ├── DAX_MEASURES.md                          # measure library, naming contract, validation
+│   ├── theme_expense_review.json                # navy/teal/coral report theme
+│   ├── data/
+│   │   ├── build_support_tables.py              # regenerates the three support CSVs
+│   │   ├── control_tests.csv                    # T01-T09 scorecard
+│   │   ├── risk_matrix.csv                      # 9 risks, testability, priority
+│   │   └── selected_follow_ups.csv              # 3 evidence requests
+│   └── screenshots/
+│       ├── README.md                            # real-capture checklist and captions
+│       ├── dashboard_mockup.html                # HTML/CSS design comp of page 1
+│       └── dashboard_mockup.png                 # 1600x900 render (not a Power BI render)
 ├── tests/
 │   ├── test_pipeline.py                         # 17 rules, dispositions, reconciliation
 │   └── test_workbook.py                         # sheet and formula integrity
@@ -315,7 +345,7 @@ and results.
 
 | Skill | Evidence in this repo |
 |---|---|
-| Data-quality engineering | 17 rules, 5 dispositions, 35 defects detected and disclosed |
+| Data-quality engineering | 17 checks, 5 dispositions, 37 flagged rows disclosed (35 planted defects, 39 check hits) |
 | Financial variance analysis | Category, month, month × category, department and line decomposition |
 | Reconciliation discipline | Raw-to-clean bridge balancing to 0.00 before any number is reported |
 | SQL | Schema, views, window functions, guarded percentages, 9 control tests |
@@ -336,15 +366,16 @@ and results.
 | Formula-driven Excel workbook | ✅ Complete |
 | PostgreSQL analytics + control tests | ✅ Executed on PostgreSQL 19 |
 | Documentation and one-page PDF | ✅ Complete |
-| Power BI visual dashboard | 🚧 Planned (design spec in `power_bi/README.md`) |
+| Power BI build assets | ✅ Guide, DAX library, theme, support tables, mockup |
+| Power BI `.pbix` report | 🚧 To be authored locally in Power BI Desktop (GUI required) |
 | Automated tests (`unittest`) | ✅ Complete (`tests/`) |
 | CI workflow (GitHub Actions) | ✅ Added (`.github/workflows/ci.yml`) |
 | Git repository / GitHub publication | ✅ Committed & pushed to `main` |
 
 **Next milestones**
 
-1. Build the Power BI report from the spec in `power_bi/README.md`: executive
-   overview, variance waterfall, DQ exceptions and follow-up tracker.
+1. Author the Power BI report from `power_bi/POWER_BI_BUILD_GUIDE.md`, then
+   replace the design mockup with a real capture.
 2. Add Docker Compose for a one-command PostgreSQL demo.
 3. Parameterise period, currency and VAT basis; move budget to a star schema.
 4. Extend the `unittest` suite to assert the captured SQL outputs under

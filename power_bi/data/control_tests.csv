@@ -1,0 +1,10 @@
+test_id,test_name,population_rows,exception_rows,exception_amount_eur,outcome,result,evidence_gap
+T01,Exact duplicate invoice / posting,454,2,7289.32,Exceptions found,2 exact duplicate pairs: TXN-2364/TXN-2451 and TXN-2348/TXN-2452; later copies quarantined,"No payment or bank records, so a duplicate payment cannot be ruled out"
+T02,Near duplicate,454,4,14459.40,Exceptions found,2 near-duplicate pairs 1-2 days apart; all 4 rows retained and flagged,No delivery or invoice reference to confirm separate purchases
+T03,Out-of-period posting,454,2,23288.60,Exceptions found,2025-12-28 (TXN-2280) and 2026-07-03 (TXN-2121) excluded from the clean ledger,No accrual schedule or close checklist to test the cut-off control
+T04,Negative budget,454,1,2500.00,Exceptions found,"TXN-2198 carries a -EUR 2,500 budget and is quarantined",No approval trail to explain how a negative budget was entered
+T05,Category master compliance,454,0,0.00,Clean after correction,6 non-canonical labels mapped to canonical categories; 0 unmapped labels remain,None for recording; the category policy document is not available
+T06,Unbudgeted spend,454,3,10421.61,Exceptions found,"TXN-2040, TXN-2248 and TXN-2336 have zero budget and a positive actual",No budget-approval record to test whether the spend was authorised
+T07,Credit notes,454,4,5293.69,Exceptions found,4 credit notes retained and flagged for matching,"No invoice reference, so credits cannot be matched to original invoices"
+T08,Review-threshold items,442,19,,Screen populated,"19 included lines pass |variance| >= EUR 1,000 and |variance %| >= 10%",Not an exception population; this is a prioritisation screen
+T09,Reconciliation,454,0,0.00,Clean,"Raw minus excluded minus clean = 0.00 on rows, budget and actual",None
