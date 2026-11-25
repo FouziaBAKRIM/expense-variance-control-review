@@ -6,7 +6,7 @@ Implements the rules documented in ``docs/methodology.md``:
 * date parsing and cut-off policy
 * category normalisation with an audit trail
 * duplicate, negative, unbudgeted and outlier checks
-* three-way disposition (include / include-and-flag / quarantine)
+* five-way disposition (include / correct-and-include / include-and-flag / quarantine / out-of-period)
 * variance and guarded variance %
 * reconciliation, DQ summary and analysis extracts
 

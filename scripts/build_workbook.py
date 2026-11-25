@@ -166,7 +166,7 @@ def main() -> None:
         ws.cell(row=r, column=7, value=float(row["budget"]))
         ws.cell(row=r, column=8, value=float(row["actual_amount"]))
         ws.cell(row=r, column=9, value=f"=H{r}-G{r}")
-        ws.cell(row=r, column=10, value=f'=IF(AND(G{r}>=100,H{r}<>0),I{r}/G{r},"n/a")')
+        ws.cell(row=r, column=10, value=f'=IF(G{r}>=100,I{r}/G{r},"n/a")')
         ws.cell(row=r, column=11, value=row["disposition"])
         ws.cell(row=r, column=12, value=row["dq_flags"])
 

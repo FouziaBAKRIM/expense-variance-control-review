@@ -136,6 +136,13 @@ Each follow-up is written as **observation → possible causes → evidence requ
 conclusion pending**. None asserts error, fraud or misconduct. The third item
 covers two pairs: €6,394.95 payroll and €894.37 office supplies.
 
+The narrow variance threshold (`|variance| ≥ €1,000` **and** `|variance %| ≥ 10%`)
+returns 19 included lines. The broader candidate screen in
+`data/processed/follow_up_candidates.csv` (`|variance| ≥ €1,000` **or** unbudgeted
+**or** credit note **or** outlier) returns 25. The three items above are then chosen
+by judgement; the duplicate pair is a recording exception from the DQ log, not a
+variance-screen item.
+
 ### What the numbers actually say
 
 - **Three months carry most of the gap.** January, May and June contribute
@@ -241,7 +248,13 @@ expense-variance-control-review/
 │   └── coach_questions.md                       # 3 model answers on judgement and communication
 ├── deliverables/
 │   └── expense_review_workbook.xlsx             # 9 sheets, live variance and SUMIFS formulas
+├── power_bi/
+│   └── README.md                                # dashboard design spec (report not yet built)
+├── tests/
+│   ├── test_pipeline.py                         # 17 rules, dispositions, reconciliation
+│   └── test_workbook.py                         # sheet and formula integrity
 ├── .gitignore
+├── LICENSE
 ├── README.md
 └── requirements.txt
 ```
@@ -283,6 +296,9 @@ python scripts/run_sql.py --host localhost --port 5432 --user postgres
 # 6. Regenerate the one-page PDF (optional)
 msedge --headless=new --disable-gpu --no-pdf-header-footer \
   --print-to-pdf=docs/management_summary.pdf docs/management_summary.html
+
+# 7. Run the test suite (standard-library unittest, no extra install)
+python -m unittest discover -s tests -v
 ```
 
 The seed is fixed, so the generator reproduces the same 454 rows and the same
@@ -303,6 +319,7 @@ and results.
 | SQL | Schema, views, window functions, guarded percentages, 9 control tests |
 | Excel | Live variance formulas, `SUMIFS`/`COUNTIF`, conditional formatting, 9 sheets |
 | Executive communication | One-page brief, three evidence requests, coach-question answers |
+| Automated testing | `unittest` suite over the 17 rules, dispositions, reconciliation and workbook formulas |
 | Professional scepticism | Neutral language, explicit limitations, no fraud or error conclusions |
 
 ---
@@ -317,18 +334,18 @@ and results.
 | Formula-driven Excel workbook | ✅ Complete |
 | PostgreSQL analytics + control tests | ✅ Executed on PostgreSQL 19 |
 | Documentation and one-page PDF | ✅ Complete |
-| Power BI visual dashboard | 🚧 Planned |
-| Automated tests (`pytest`) | 🚧 Planned |
-| Git repository / GitHub publication | ⏳ Pending commit |
+| Power BI visual dashboard | 🚧 Planned (design spec in `power_bi/README.md`) |
+| Automated tests (`unittest`) | ✅ Complete (`tests/`) |
+| Git repository / GitHub publication | ✅ Committed & pushed to `main` |
 
 **Next milestones**
 
-1. Build the Power BI report: executive overview, variance waterfall, DQ
-   exceptions and follow-up tracker.
-2. Add a `pytest` suite around the 17 rules, disposition logic and reconciliation.
-3. Add Docker Compose for a one-command PostgreSQL demo.
-4. Parameterise period, currency and VAT basis; move budget to a star schema.
-5. Add a `LICENSE` file if the code is to be reused explicitly.
+1. Build the Power BI report from the spec in `power_bi/README.md`: executive
+   overview, variance waterfall, DQ exceptions and follow-up tracker.
+2. Add Docker Compose for a one-command PostgreSQL demo.
+3. Parameterise period, currency and VAT basis; move budget to a star schema.
+4. Extend the `unittest` suite to assert the captured SQL outputs under
+   `sql/output/`.
 
 ---
 
@@ -354,5 +371,5 @@ a statutory audit, assurance engagement or professional audit opinion. No real
 financial data is included, and the project is not affiliated with any employer or
 with the vendors named in the synthetic descriptions.
 
-If you reuse the code, add an explicit licence first. Questions, corrections and
-suggestions are welcome via issues.
+Released under the MIT License — see [`LICENSE`](LICENSE). Questions,
+corrections and suggestions are welcome via issues.

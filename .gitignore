@@ -1,10 +1,15 @@
 # Python
 __pycache__/
 *.py[cod]
+*.egg-info/
+build/
+dist/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 .ipynb_checkpoints/
+.coverage
+htmlcov/
 
 # Virtual environments
 .venv/

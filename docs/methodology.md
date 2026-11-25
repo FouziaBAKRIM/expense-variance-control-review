@@ -10,8 +10,8 @@
 
 | Document control | |
 |---|---|
-| Version | 1.0 |
-| Date | 2026-11-24 |
+| Version | 1.1 |
+| Date | 2026-11-25 |
 | Prepared by | Project analyst (educational exercise) |
 | Status | Complete — educational exercise |
 | Applies to | `data/synthetic_retail_expenses.csv` |
@@ -294,17 +294,28 @@ what the review should surface.
 
 ## 13. Review threshold (follow-up selection)
 
-A line is a candidate for follow-up when **both**:
+Two screens are used, and they answer different questions.
+
+**Variance threshold (narrow).** A line passes when **both**:
 
 - `abs(variance) ≥ €1,000`, and
 - `abs(variance %) ≥ 10%` (where the denominator is valid).
 
 This is a **prioritisation rule for management attention**, not an audit
-materiality and not a conclusion. Items below the threshold remain in the data and
-in the dashboard; they are simply not shortlisted.
+materiality and not a conclusion. Nineteen included lines pass it in this dataset
+(SQL test T08). Items below the threshold remain in the data and in the workbook;
+they are simply not shortlisted on variance grounds.
 
-The three selected follow-up items (step 26) must each pass this screen and be
-chosen for a stated business reason, not only because they are the largest.
+**Candidate screen (broad).** `data/processed/follow_up_candidates.csv` uses a
+wider screen — `abs(variance) ≥ €1,000` **or** unbudgeted **or** credit note
+**or** outlier — which yields 25 included rows. It is deliberately wider so that
+risk types other than size (unbudgeted spend, credits, one-off outliers) are not
+lost.
+
+The three selected follow-up items (step 26) are then chosen by judgement to
+cover different risk types: two large variances that pass the narrow threshold
+(TXN-2166, TXN-2326) and one recording exception drawn from the duplicate check
+(TXN-2364/2451 and TXN-2348/2452), which is not a variance-screen item.
 
 ---
 
@@ -369,6 +380,7 @@ The negative-budget line shows a positive budget adjustment because removing a
 |---|---|---|---|
 | 0.1 | 2026-11-22 | Initial assumptions for the 454-row synthetic dataset; supersedes the 273-row draft | Project analyst |
 | 1.0 | 2026-11-24 | Final methodology: 17 checks, verified reconciliation bridge, completed status | Project analyst |
+| 1.1 | 2026-11-25 | Clarified the two-screen follow-up selection (narrow variance threshold vs broad candidate screen) | Project analyst |
 
 ---
 

@@ -8,10 +8,11 @@
 
 | | |
 |---|---|
-| Version | 1.0 |
-| Date | 2026-11-22 |
-| Selection rule | `abs(variance) ≥ €1,000` **and** `abs(variance %) ≥ 10%`, plus judgement |
-| Source | `data/processed/follow_up_candidates.csv` |
+| Version | 1.1 |
+| Date | 2026-11-25 |
+| Variance threshold | `abs(variance) ≥ €1,000` **and** `abs(variance %) ≥ 10%` (19 included lines) |
+| Candidate screen | broader: `abs(variance) ≥ €1,000` **or** unbudgeted **or** credit note **or** outlier (25 rows in `follow_up_candidates.csv`) |
+| Selection | three items chosen by judgement to cover different risk types |
 
 ---
 
@@ -26,6 +27,11 @@
 The three items were chosen to cover three different risk types: a large
 operational variance, a classification/approval question, and a control failure
 in recording. They are not simply the three largest numbers.
+
+Note that item 3 (the duplicate pair) comes from the duplicate-invoice check, not
+from the variance candidate screen: the later copies are quarantined and the
+originals carry only a small variance. The two-screen logic is documented in
+`docs/methodology.md` §13.
 
 ---
 
